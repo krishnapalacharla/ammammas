@@ -6,6 +6,6 @@ The first local version includes 97 captured routes and 73 products. All product
 
 Native theme files exist for home, products, collections, pages, recipes, search, wishlist, cart and contact. Captured homepage cards and bundles remain reference snapshots until live collection and bundle configuration is supplied. The local review and Liquid rendering are separate renderers sharing the theme assets; exact parity must be checked in Shopify later.
 
-Validation: JavaScript syntax, JSON templates, section schema JSON and asset-reference checks are performed locally. Browser screenshot QA and HTTP checks were blocked by the current environment; do not claim visual or Shopify verification. The server starts on 127.0.0.1:4180 for user review.
+Validation: JavaScript syntax, JSON templates, section schema JSON and asset-reference checks pass. Browser review now covers 1440px desktop and 390px mobile catalog/product views, working manual carousel controls, loaded images, horizontal overflow checks and a wishlist toggle restored to its prior state. Shopify validation remains pending. The local preview runs on 127.0.0.1:4180.
 
 Outstanding: Shopify Theme Check, live responsive review, merchant content mapping, variant pricing/stock, shipping/markets, accounts, reviews, bundle pricing, newsletter integration and private remote backup.

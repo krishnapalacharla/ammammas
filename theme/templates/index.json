@@ -1,42 +1,46 @@
 {
   "sections": {
-    "s0": {
-      "type": "home-hero"
+    "heritage-slider": {
+      "type": "heritage-slider"
     },
-    "s1": {
-      "type": "home-01"
+    "heritage-categories": {
+      "type": "heritage-categories"
     },
-    "s2": {
-      "type": "home-02"
+    "heritage-featured": {
+      "type": "heritage-featured"
     },
-    "s3": {
-      "type": "home-03"
+    "heritage-arrivals": {
+      "type": "heritage-arrivals"
     },
-    "s4": {
-      "type": "home-04"
+    "heritage-bundles": {
+      "type": "heritage-bundles"
     },
-    "s5": {
-      "type": "home-05"
+    "heritage-story": {
+      "type": "heritage-story"
     },
-    "s6": {
-      "type": "home-06"
+    "heritage-promise": {
+      "type": "heritage-promise"
     },
-    "s7": {
-      "type": "home-07"
+    "heritage-testimonials": {
+      "type": "heritage-testimonials"
     },
-    "s8": {
-      "type": "home-08"
+    "heritage-offerings": {
+      "type": "heritage-offerings"
+    },
+    "heritage-newsletter": {
+      "type": "heritage-newsletter"
     }
   },
   "order": [
-    "s0",
-    "s1",
-    "s2",
-    "s3",
-    "s4",
-    "s5",
-    "s6",
-    "s7",
-    "s8"
+    "heritage-slider",
+    "heritage-categories",
+    "heritage-featured",
+    "heritage-arrivals",
+    "heritage-bundles",
+    "heritage-story",
+    "heritage-promise",
+    "heritage-testimonials",
+    "heritage-offerings",
+    "heritage-newsletter"
   ]
 }

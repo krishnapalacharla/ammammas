@@ -38,3 +38,7 @@ write('config/settings_schema.json',json.dumps([{'name':'theme_info','theme_name
 write('config/settings_data.json',json.dumps({'current':{'brand_red':'#e21331','brand_cream':'#fdf0d6','brand_brown':'#77290d'}}))
 write('locales/en.default.json',json.dumps({'general':{'accessibility':{'skip_to_content':'Skip to content'}}}))
 print('Native Shopify theme foundation generated; store validation pending access.')
+
+# Apply the shared heritage presentation after the Shopify foundation.
+import runpy
+runpy.run_path(str(ROOT/"scripts/build_heritage.py"))

@@ -7,6 +7,9 @@ Run `python scripts/preview_server.py` from this folder, or double-click `Start-
 
 The local review uses 97 captured pages and a 73-product snapshot, with existing product photographs and content. It shares the presentation brand assets and stylesheet with the Shopify theme. Search, categories, product galleries, wishlist and the review bag run locally. This is an offline design review, not a live Shopify storefront. Prices, inventory and review data are captured snapshots. Checkout, account services, forms and bundle purchases require integration.
 
+## Current design
+Malgudi-inspired South Indian imagery, original village and kolam-style SVGs, a three-slide landing carousel with flowing motion, arched pantry product cards and responsive sections. See `docs/DESIGN.md`.
+
 ## Project structure
 - `theme/`: native Shopify Liquid, JSON templates, sections, snippets and theme assets.
 - `preview/`: local review runtime and generated reference content.

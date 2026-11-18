@@ -7,7 +7,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         path=unquote(urlsplit(self.path).path)
         if path.startswith('/assets/'): file=ROOT/'theme'/path.lstrip('/')
-        elif path in ['/preview.js','/reference-data.json']: file=ROOT/'preview'/path.lstrip('/')
+        elif path in ['/preview.js','/reference-data.json','/heritage-home.html']: file=ROOT/'preview'/path.lstrip('/')
         elif '.' not in path.rsplit('/',1)[-1] or path.endswith('.html'): file=ROOT/'preview/index.html'
         else: self.send_error(404); return
         file=file.resolve()

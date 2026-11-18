@@ -3,12 +3,14 @@
   "javascript_syntax": "passed",
   "pages": 97,
   "products": 73,
-  "incomplete_product_detail_captures": [
-    "ammammas-crispy-triangle-frym",
-    "ammammas-curd-chillies-papad",
-    "lemon-pickle-300g"
+  "homepage_slides": 3,
+  "browser_tests": [
+    "1440px catalog: 73 cards and no broken images",
+    "390px catalog: no horizontal overflow or card/text overflow",
+    "390px product page: no horizontal overflow or broken images",
+    "Direct slide selection and previous navigation",
+    "Wishlist toggle and restoration"
   ],
-  "browser_qa": "blocked by browser automation errors",
-  "http_check": "blocked by socket permission",
-  "shopify_theme_check": "pending CLI and store access"
+  "shopify_theme_check": "pending CLI/store access",
+  "illustrations": "Original SVG artwork; no downloaded third-party artwork"
 }
