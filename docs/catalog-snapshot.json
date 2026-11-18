@@ -1,0 +1,1120 @@
+[
+  {
+    "handle": "ajwain-papad",
+    "title": "Ajwain Papad",
+    "description": "Ammamma’s Ajwain Papad combines the goodness of traditional recipes with the bold, aromatic flavor of ajwain, known for its digestive benefits. Crafted in small batches using quality ingredients, this papad delivers a perfectly light, crispy texture with a subtle spice kick in every bite. Free from unnecessary additives and made in a homestyle manner, it can be roasted or fried for a crunchy accompaniment to meals or enjoyed as a flavorful snack on its own. With its unique taste and functional benefits, Ammamma’s Ajwain Papad adds both flavor and comfort to your everyday eating.",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-cafde0af0f2c.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/ajwain-papad"
+  },
+  {
+    "handle": "ammammas-amla-pickle",
+    "title": "Amla Pickle",
+    "description": "Ammamma’s Amla Pickle is a traditional homemade gooseberry pickle made with fresh amla, aromatic spices, and cold-pressed oil. Tangy, spicy, and full of authentic Andhra-style flavour, it pairs perfectly with hot rice, roti, dosa, or curd rice.Every jar brings you the nostalgic taste of Ammamma’s kitchen.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-40e0c8a2a697.jpg",
+      "/assets/ref-e3ad5b62c4fd.jpg",
+      "/assets/ref-2f871584e6d1.jpg",
+      "/assets/ref-5afbbbb0b0ba.png"
+    ],
+    "options": [
+      "500g",
+      "1Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/ammammas-amla-pickle"
+  },
+  {
+    "handle": "ammammas-coconut-chana-chutney",
+    "title": "Ammamma's Coconut Chana Chutney",
+    "description": "Ammamma’s Coconut Chana Chutney is a delicious blend of roasted Bengal gram and fresh coconut, delivering a rich, nutty flavour with a hint of spice from green chillies and the warmth of jeera and garlic. Smooth in texture and perfectly balanced, it pairs beautifully with idlis, dosa, vada, and even rice. Made with simple, authentic ingredients, it brings a homemade taste to every meal while ensuring freshness and quality.",
+    "price": "45.0",
+    "available": false,
+    "images": [
+      "/assets/ref-181f3e80cb32.jpg",
+      "/assets/ref-b42559fa1556.jpg",
+      "/assets/ref-d6c8982d794e.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ammammas-coconut-chana-chutney"
+  },
+  {
+    "handle": "ammammas-crispy-triangle-frym",
+    "title": "Crispy Triangle Fryum",
+    "description": "",
+    "price": "50",
+    "available": true,
+    "images": [
+      "/assets/ref-3c15c22a5a33.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/ammammas-crispy-triangle-frym"
+  },
+  {
+    "handle": "ammammas-curd-chillies-papad",
+    "title": "Curd Chillies",
+    "description": "",
+    "price": "100",
+    "available": false,
+    "images": [
+      "/assets/ref-32206a7d0597.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/ammammas-curd-chillies-papad"
+  },
+  {
+    "handle": "ammammas-curry-leaf-podi",
+    "title": "Curry Leaf Podi",
+    "description": "Ammammas Curry Leaf Podi is a flavorful spice blend made from freshly dried curry leaves, roasted lentils, red chillies, and traditional spices. Carefully ground using our homestyle method, it delivers a rich aroma with a mildly spicy, earthy taste. Perfect to mix with hot rice and ghee, sprinkle over idli and dosa, or enjoy as a side condiment, Ammammas Curry Leaf Podi brings authentic South Indian flavor and wholesome goodness to every meal.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-184daf2988d9.png",
+      "/assets/ref-0adb72a8f594.png",
+      "/assets/ref-b01dc059dca2.png",
+      "/assets/ref-b82f5f0fd34f.png",
+      "/assets/ref-4656b409b410.png",
+      "/assets/ref-e0386e5e39d7.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-curry-leaf-podi"
+  },
+  {
+    "handle": "ammammas-dalmoth",
+    "title": "Ammamma's Dalmoth",
+    "description": "Ammamma’s Dalmoth is prepared using high-quality fried lentils, sev, peanuts, and selected spices. Each ingredient is fried separately at controlled temperatures to ensure crispness and proper texture. The components are then blended with a balanced spice mix to achieve a flavorful and crunchy snack. Produced under strict hygiene standards, every batch is checked for taste, crunch, and consistency before being packed in airtight, food-grade packaging to maintain freshness.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-cdfbefa82847.png",
+      "/assets/ref-2909f61016d5.png"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/ammammas-dalmoth"
+  },
+  {
+    "handle": "ammammas-dosa-idly-batter-0-5-kg",
+    "title": "Ammamma's Dosa-Idly Batter 0.5 KG",
+    "description": "Ammammas Dosa Batter is prepared using carefully selected rice and urad dal, ground to the right consistency for smooth, crispy, and golden dosas. Crafted using our traditional homestyle process, it ensures authentic taste, perfect texture, and consistent results every time.Ammammas Dosa Batter brings the true flavor of South Indian kitchens straight to your home.",
+    "price": "60.0",
+    "available": true,
+    "images": [
+      "/assets/ref-81bf87dfe728.png",
+      "/assets/ref-7e4795c370ac.png",
+      "/assets/ref-c8f2c09e9606.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ammammas-dosa-idly-batter-0-5-kg"
+  },
+  {
+    "handle": "ammammas-flax-seed-podi",
+    "title": "Flax Seed Podi",
+    "description": "Ammammas Flax Seed Podi is a wholesome and flavorful spice blend made from carefully roasted flax seeds, lentils, red chillies, and traditional spices. Prepared using our signature homestyle method, it offers a nutty aroma with a mildly spicy and earthy taste.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-ce02905112c9.png",
+      "/assets/ref-7a6ac710f6ce.png",
+      "/assets/ref-4a19d1c17384.png",
+      "/assets/ref-8a4e780306ee.png",
+      "/assets/ref-11e76d14476b.png",
+      "/assets/ref-8ec2312930b3.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-flax-seed-podi"
+  },
+  {
+    "handle": "ammammas-gavvalu",
+    "title": "Ammamma's Gavvalu",
+    "description": "Ammamma’s Gavvalu is prepared using quality ingredients and a traditional recipe. The dough is kneaded to the right consistency, shaped into shell forms, and deep-fried until golden and crisp. The fried gavvalu are then coated evenly with sugar . Each batch is produced under strict hygiene standards and carefully checked for texture, sweetness, and crunch before packing.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-69a877db4b90.png",
+      "/assets/ref-3c54ed9f3742.png"
+    ],
+    "options": [],
+    "category": "",
+    "url": "/products/ammammas-gavvalu"
+  },
+  {
+    "handle": "ammammas-ginger-chutney",
+    "title": "Ammamma's Ginger Chutney",
+    "description": "Ammamma’s Ginger Chutney is crafted with fresh ginger, balanced with tangy tamarind and a hint of jaggery for a unique sweet-spicy flavor.Infused with green chillies, garlic, and aromatic spices, it delivers a bold and refreshing taste.Prepared using traditional recipes to ensure authentic flavor and consistent quality.A perfect accompaniment for chapatis, dosa, and everyday meals.",
+    "price": "45.0",
+    "available": false,
+    "images": [
+      "/assets/ref-bd99cc983418.jpg",
+      "/assets/ref-19582def7ac1.jpg",
+      "/assets/ref-ac4414608491.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ammammas-ginger-chutney"
+  },
+  {
+    "handle": "ammammas-ginger-pickle",
+    "title": "Ginger Pickle",
+    "description": "Ammamma’s Ginger Pickle is a traditional Andhra-style delicacy prepared with freshly chopped ginger, handpicked spices. The natural warmth of ginger blends beautifully with tangy and spicy notes, creating a bold, mouth-watering flavour.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-5a2783922a32.jpg",
+      "/assets/ref-a8fac01ef4ea.jpg",
+      "/assets/ref-b51d47dd64e8.jpg",
+      "/assets/ref-ae6d23d274ab.png",
+      "/assets/ref-b032f5b8303b.jpg"
+    ],
+    "options": [
+      "500g",
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/ammammas-ginger-pickle"
+  },
+  {
+    "handle": "ammammas-kandipodi",
+    "title": "Kandi Podi",
+    "description": "Ammammas Kandi Podi is a traditional Andhra-style spice powder made from carefully roasted toor dal (kandi pappu), red chillies, and aromatic spices. Ground to the perfect texture using our homestyle process, it delivers a rich, nutty, and moderately spicy flavor. Best enjoyed with hot rice and ghee, idli, or dosa, Ammammas Kandi Podi adds authentic taste and comforting warmth to every meal",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-7e205cc888c5.png",
+      "/assets/ref-c547b29d766c.png",
+      "/assets/ref-852c17972561.png",
+      "/assets/ref-1d7f8060fa8e.png",
+      "/assets/ref-e17aad5a0de5.png",
+      "/assets/ref-3f98d1199e4c.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-kandipodi"
+  },
+  {
+    "handle": "ammammas-moringa-leaf-podi",
+    "title": "Moringa Leaf Podi",
+    "description": "Ammammas Moringa Leaf Podi is a wholesome and aromatic spice blend made from carefully dried moringa leaves, roasted lentils, red chillies, and traditional spices. Prepared using our signature homestyle method, it delivers a rich, earthy flavor with a balanced spice profile. Perfect to mix with hot rice and ghee, sprinkle over idli or dosa, or enjoy as a nutritious side condiment, Ammammas Moringa Leaf Podi combines authentic taste with everyday goodness.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-b078bfdf7808.png",
+      "/assets/ref-a9218852a6ee.png",
+      "/assets/ref-0ba52f17d46e.png",
+      "/assets/ref-9da54a73e219.png",
+      "/assets/ref-568d653c02aa.png",
+      "/assets/ref-d9e5e9dff63e.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-moringa-leaf-podi"
+  },
+  {
+    "handle": "ammammas-nalla-karam",
+    "title": "Nalla Karam",
+    "description": "Ammammas Nalla Karam is a flavorful and aromatic spice powder made from carefully roasted lentils, red chillies, garlic, and traditional spices. Ground to perfection using our homestyle method, it delivers a bold, spicy, and slightly smoky taste that enhances every meal. Perfect to mix with hot rice and ghee, sprinkle over idli or dosa, or use as a side condiment, Ammammas Nalla Karam brings authentic South Indian flavor to your plate.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-7bfa05e7228a.png",
+      "/assets/ref-c1c488e2fcc9.png",
+      "/assets/ref-ecb8306f17ff.png",
+      "/assets/ref-596df817e2d4.png",
+      "/assets/ref-592effd791bb.png",
+      "/assets/ref-4a5b52f4542d.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-nalla-karam"
+  },
+  {
+    "handle": "ammammas-peanut-chutney",
+    "title": "Ammamma's Peanut Chutney",
+    "description": "Ammamma’s Peanut Chutney is a rich and flavorful blend of roasted peanuts, aromatic spices, and traditional ingredients. With a smooth, creamy texture and a perfect balance of spice from red chillies and garlic, it delivers an authentic homemade taste in every bite. This chutney pairs perfectly with idli, dosa, vada, and even hot rice, making it a versatile addition to your everyday meals. Prepared with care and quality ingredients, it brings the comforting taste of Ammamma’s to your plate.",
+    "price": "45.0",
+    "available": false,
+    "images": [
+      "/assets/ref-1529764ef3f8.jpg",
+      "/assets/ref-85ee4439cb59.jpg",
+      "/assets/ref-8a87d6fd5d1b.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ammammas-peanut-chutney"
+  },
+  {
+    "handle": "ammammas-red-chilli-gongura",
+    "title": "Red Chilli Gongura",
+    "description": "Ammamma’s Red Chilli Gongura is a bold and authentic Andhra-style pickle made from fresh gongura blended with premium red chillies and traditional spices. Known for its distinct tangy taste and fiery spice, this pickle delivers the perfect balance of sourness and heat in every bite. It brings the true taste of Ammamma’s kitchen to your table.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-b3f63412ade8.jpg",
+      "/assets/ref-2d8123669784.jpg",
+      "/assets/ref-0d3853e0be3f.jpg",
+      "/assets/ref-b480dc799f6a.png"
+    ],
+    "options": [
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/ammammas-red-chilli-gongura"
+  },
+  {
+    "handle": "ammammas-ring-fryums",
+    "title": "Ammamma's Ring Fryums",
+    "description": "Bring home the perfect crunch with Ammamma's Ring Fryums. Made from quality ingredients and shaped into fun rings, these fryums puff up into light, crispy snacks when fried. Their delightful texture and delicious taste make them a perfect companion for meals, tea-time snacks, and family gatherings.",
+    "price": "50.0",
+    "available": true,
+    "images": [
+      "/assets/ref-fc4afd01ea31.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/ammammas-ring-fryums"
+  },
+  {
+    "handle": "ammammas-tomato-chutney",
+    "title": "Ammamma's Tomato Chutney",
+    "description": "Ammamma’s Tomato Chutney is made from ripe tomatoes, blended with spices for a tangy and well-balanced flavor.Infused with garlic, green chillies, and traditional seasonings, it delivers a mildly spicy and refreshing taste.Prepared using authentic recipes and hygienic processes to ensure consistent quality.An ideal accompaniment for idli, dosa, chapatis, and everyday meals.",
+    "price": "45.0",
+    "available": false,
+    "images": [
+      "/assets/ref-84c8a566c6d7.jpg",
+      "/assets/ref-69707871f0e7.jpg",
+      "/assets/ref-038b9a5f79fc.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ammammas-tomato-chutney"
+  },
+  {
+    "handle": "ammammas-tube-fryums",
+    "title": "Ammamma's Tube Fryums",
+    "description": "Add a burst of crunch and fun to every meal with Ammamma's Tube Fryums. Made from quality ingredients, these crispy tube-shaped fryums puff up beautifully when fried, delivering a light texture and delicious taste. Perfect as a snack, side dish, or party treat, they are loved by both kids and adults.",
+    "price": "50.0",
+    "available": true,
+    "images": [
+      "/assets/ref-b30d99a7a74b.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/ammammas-tube-fryums"
+  },
+  {
+    "handle": "ammammas-velluli-karam",
+    "title": "Velluli Karam",
+    "description": "Ammammas Velluli Karam is a bold and aromatic garlic spice powder made from premium dried garlic, roasted lentils, red chillies, and traditional spices. Prepared using our authentic homestyle method, it delivers a rich, spicy, and slightly pungent flavor that enhances every bite.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-70ed360a6ce1.png",
+      "/assets/ref-52acb280aac5.png",
+      "/assets/ref-4e8f05273b45.png",
+      "/assets/ref-84f14b9f6b6f.png",
+      "/assets/ref-786e984a9350.png",
+      "/assets/ref-8b3aea98203c.png"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/ammammas-velluli-karam"
+  },
+  {
+    "handle": "bellam-avakay",
+    "title": "Bellam Avakay",
+    "description": "Ammamma’s Bellam Avakay is a deliciously unique twist on the classic mango pickle, combining juicy raw mango pieces, traditional spices, and the natural sweetness of jaggery for a rich sweet-and-spicy flavor. Crafted in small batches using authentic homemade methods, it delivers a perfect harmony of tanginess, heat, and sweetness in every bite. The mango pieces remain firm and flavorful, making it a wonderful accompaniment to rice, rotis, curd rice, or snacks. Free from unnecessary additives, Ammamma’s Bellam Avakay brings a comforting homemade taste with a delightful balance of flavors.",
+    "price": "149.0",
+    "available": false,
+    "images": [
+      "/assets/ref-b628da9c0c74.jpg"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/bellam-avakay"
+  },
+  {
+    "handle": "bellam-zedilu-250g",
+    "title": "Bellam Zedilu - 250g",
+    "description": "Ammamma’s Bellam Zedilu are a traditional, crunchy delight made from rice flour and rich, natural jaggery, shaped into small rings and deep-fried to golden perfection. Lightly sweet with a satisfying crisp texture, these timeless snacks are handcrafted in small batches without any preservatives, bringing you the authentic taste of homemade goodness. Perfect for festive moments, tea-time cravings, or everyday snacking, they offer a nostalgic blend of tradition and flavor in every bite.",
+    "price": "130.0",
+    "available": false,
+    "images": [
+      "/assets/ref-f630cd7ff5f1.png"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/bellam-zedilu-250g"
+  },
+  {
+    "handle": "boondi",
+    "title": "Boondi",
+    "description": "Light and crispy besan boondi made with the finest gram flour, lightly salted and perfectly seasoned. Great as a standalone snack or raita topping.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-e2eef065f786.jpg",
+      "/assets/ref-0944a12b0173.jpg"
+    ],
+    "options": [
+      "140g",
+      "500g"
+    ],
+    "category": "snacks",
+    "url": "/products/boondi"
+  },
+  {
+    "handle": "buffalo-ghee-200ml",
+    "title": "Buffalo Ghee 200ml",
+    "description": "Rich and aromatic buffalo ghee crafted using the traditional bilona method. Deeper flavour profile, ideal for dal tadka, biryani, and sweets.",
+    "price": "249.0",
+    "available": false,
+    "images": [
+      "/assets/ref-40a82989f9bf.jpg",
+      "/assets/ref-df9b1ee12edb.jpg",
+      "/assets/ref-2caff65cd580.jpg"
+    ],
+    "options": [],
+    "category": "ghee",
+    "url": "/products/buffalo-ghee-200ml"
+  },
+  {
+    "handle": "buffalo-ghee",
+    "title": "Buffalo Ghee 500ml",
+    "description": "Rich and aromatic buffalo ghee crafted using the traditional bilona method. Deeper flavour profile, ideal for dal tadka, biryani, and sweets.",
+    "price": "599.0",
+    "available": false,
+    "images": [
+      "/assets/ref-719ab95a6e19.jpg",
+      "/assets/ref-c3b43b8ed10d.jpg",
+      "/assets/ref-9a830436a971.jpg"
+    ],
+    "options": [],
+    "category": "ghee",
+    "url": "/products/buffalo-ghee"
+  },
+  {
+    "handle": "cauliflower-pickle",
+    "title": "Cauliflower Pickle",
+    "description": "Cauliflower Pickle is made using fresh cauliflower florets and traditional spices for a rich, spicy, and flavourful taste. The cauliflower is carefully cleaned, marinated, and blended with authentic masala to absorb deep homestyle flavours in every bite. This pickle pairs perfectly with hot rice, chapati, curd rice, dosa, and everyday meals. Prepared using traditional recipes and small-batch methods, it delivers the perfect balance of spice, tanginess, and aroma. A must-have accompaniment for those who enjoy bold and comforting homemade pickle flavours.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-ebd1bc8b5c9e.png"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1kg"
+    ],
+    "category": "pickles",
+    "url": "/products/cauliflower-pickle"
+  },
+  {
+    "handle": "chakodi",
+    "title": "Chekodi",
+    "description": "Traditional flower-shaped crispy snack made with rice flour and black gram dal. Deep-fried to golden perfection with a satisfying crunch.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-7022be54ea82.jpg",
+      "/assets/ref-1c18726d9242.jpg"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/chakodi"
+  },
+  {
+    "handle": "chekkalu",
+    "title": "Chekkalu",
+    "description": "Crispy, flaky rice flour crackers stamped with traditional patterns. Lightly spiced with chilli and cumin, these are a festive favourite.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-1be3d6a92d14.jpg",
+      "/assets/ref-636ef227bb72.jpg"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/chekkalu"
+  },
+  {
+    "handle": "chilli-powder",
+    "title": "Chilli Powder",
+    "description": "Ammamma’s Chilli Powder brings you the authentic taste of traditional homemade spices, crafted from high-quality red chillies to deliver rich color, bold flavor, and the perfect level of heat. Made using natural ingredients with no preservatives or chemicals, it ensures purity and freshness in every spoon. Ideal for curries, chutneys, marinades, and everyday cooking, this chilli powder adds a vibrant aroma and a delicious spicy kick to all your favorite dishes.",
+    "price": "98.0",
+    "available": true,
+    "images": [
+      "/assets/ref-ddecbe54eeb1.jpg"
+    ],
+    "options": [
+      "120g",
+      "170g",
+      "500g"
+    ],
+    "category": "spices",
+    "url": "/products/chilli-powder"
+  },
+  {
+    "handle": "cow-ghee-500ml",
+    "title": "Cow Ghee 500ml",
+    "description": "Pure cow ghee made from fresh cream using the traditional bilona method. Rich aroma and golden color, perfect for cooking, tempering, and sweets.",
+    "price": "599.0",
+    "available": false,
+    "images": [
+      "/assets/ref-f8898275cf7d.jpg",
+      "/assets/ref-8094a03c117e.jpg",
+      "/assets/ref-af28bfc8e956.jpg"
+    ],
+    "options": [],
+    "category": "ghee",
+    "url": "/products/cow-ghee-500ml"
+  },
+  {
+    "handle": "cow-ghee",
+    "title": "Cow Ghee 200ml",
+    "description": "Pure cow ghee made from fresh cream using the traditional bilona method. Rich aroma and golden color, perfect for cooking, tempering, and sweets.",
+    "price": "249.0",
+    "available": false,
+    "images": [
+      "/assets/ref-b5f14b499b2a.jpg",
+      "/assets/ref-61500ebd404d.jpg",
+      "/assets/ref-a9d9000d75ad.jpg"
+    ],
+    "options": [],
+    "category": "ghee",
+    "url": "/products/cow-ghee"
+  },
+  {
+    "handle": "dhaniya-powder",
+    "title": "Dhaniya Powder",
+    "description": "Ammamma’s Dhaniya (Coriander) Powder offers the warm, earthy flavor of freshly ground coriander seeds, bringing authenticity to your everyday cooking. Carefully sourced and traditionally processed, it delivers a mild aroma and subtle sweetness that enhances curries, gravies, and spice blends. Made with natural ingredients and free from preservatives or chemicals, it ensures purity, freshness, and a homemade touch in every spoon.",
+    "price": "49.0",
+    "available": false,
+    "images": [
+      "/assets/ref-41e77332b688.jpg"
+    ],
+    "options": [
+      "100g",
+      "200g"
+    ],
+    "category": "spices",
+    "url": "/products/dhaniya-powder"
+  },
+  {
+    "handle": "garam-masala",
+    "title": "Garam Masala",
+    "description": "Ammamma’s Garam Masala is a fragrant blend of handpicked spices, carefully roasted and ground to perfection. Its bold aroma and rich taste enhance a variety of dishes, from curries to biryanis, giving them a warm and flavorful finish. Made with natural ingredients and no preservatives, it delivers purity, freshness, and the essence of traditional Indian cooking.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-0739d2724ffd.jpg"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/garam-masala"
+  },
+  {
+    "handle": "gongura-pickle-300g",
+    "title": "Gongura Pickle",
+    "description": "Gongura Pickle is one of the most loved traditional Andhra pickles, known for its rich tangy taste and bold flavour. Prepared using fresh gongura leaves, this pickle is slow-cooked with authentic spices using traditional homestyle methods. Every spoonful delivers the perfect balance of sourness and spice, making it a comforting addition to everyday meals. It pairs wonderfully with hot rice, ghee, dosa, curd rice, and dal rice. Carefully prepared in small batches, this pickle brings the authentic taste of Andhra kitchens to your dining table.",
+    "price": "199.0",
+    "available": true,
+    "images": [
+      "/assets/ref-f30afc9d17ec.jpg",
+      "/assets/ref-ad16e4550a5b.jpg",
+      "/assets/ref-6fc85dcb8358.png",
+      "/assets/ref-068101732688.png"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/gongura-pickle-300g"
+  },
+  {
+    "handle": "idli-dosa-batter-1kg",
+    "title": "Idli Dosa Batter (1kg)",
+    "description": "Ammammas Dosa Batter is prepared using carefully selected rice and urad dal, ground to the right consistency for smooth, crispy, and golden dosas. Crafted using our traditional homestyle process, it ensures authentic taste, perfect texture, and consistent results every time. Ammammas Dosa Batter brings the true flavor of South Indian kitchens straight to your home.",
+    "price": "99.0",
+    "available": true,
+    "images": [
+      "/assets/ref-f344622a0026.png",
+      "/assets/ref-fc4320b67f70.jpg",
+      "/assets/ref-0a91ac444d7b.jpg",
+      "/assets/ref-debfd9fbb88d.jpg",
+      "/assets/ref-6190eefd866a.jpg",
+      "/assets/ref-38a94c51dd33.jpg",
+      "/assets/ref-b7ec44946b36.jpg"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/idli-dosa-batter-1kg"
+  },
+  {
+    "handle": "jantikalu",
+    "title": "Jantikalu",
+    "description": "Crunchy and spicy traditional Andhra snack made with besan and rice flour, shaped into thin sticks. A beloved tea-time companion.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-45feb2b76081.jpg",
+      "/assets/ref-0e3a7c13bcef.jpg"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/jantikalu"
+  },
+  {
+    "handle": "jeera-powder",
+    "title": "Jeera Powder",
+    "description": "Ammamma’s Jeera (Cumin) Powder is crafted from premium-quality cumin seeds, known for their rich aroma and slightly nutty, peppery flavor. Ground with care to retain its natural oils, it adds depth and warmth to a variety of dishes, from dals to curries and marinades. With no added preservatives or chemicals, this jeera powder guarantees freshness, purity, and the comforting taste of traditional home cooking.",
+    "price": "80.0",
+    "available": true,
+    "images": [
+      "/assets/ref-33f93ea2d4fb.jpg"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/jeera-powder"
+  },
+  {
+    "handle": "lemon-pickle-300g",
+    "title": "Lemon Pickle",
+    "description": "",
+    "price": "199",
+    "available": true,
+    "images": [
+      "/assets/ref-91a479c8f264.jpg"
+    ],
+    "options": [],
+    "category": "pickles",
+    "url": "/products/lemon-pickle-300g"
+  },
+  {
+    "handle": "maagai",
+    "title": "Maagai",
+    "description": "Ammamma’s Maagai is a timeless Andhra-style mango pickle, made from carefully selected raw mango pieces and blended with traditional spices to create a bold, tangy, and richly flavorful experience. Prepared in small batches using homemade methods, it delivers the perfect balance of spice, sourness, and authentic aroma in every bite. The firm mango pieces absorb the masala beautifully, making it a delicious companion to hot rice, curd rice, rotis, or everyday meals. Free from unnecessary additives, Ammamma’s Maagai brings the true taste of homemade tradition to your table.",
+    "price": "236.0",
+    "available": true,
+    "images": [
+      "/assets/ref-d60c01ea0cdd.jpg"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/maagai"
+  },
+  {
+    "handle": "mango-pickle-300g",
+    "title": "Mango Pickle",
+    "description": "Ammammas Mango Pickle is made from carefully selected raw mangoes blended with traditional spices and aromatic oil to deliver a bold, tangy, and spicy flavor. Prepared using our authentic homestyle process, each batch captures the rich taste of classic Indian pickles.",
+    "price": "159.0",
+    "available": true,
+    "images": [
+      "/assets/ref-a23e1606b781.jpg",
+      "/assets/ref-e031b4820b79.jpg"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1kg"
+    ],
+    "category": "pickles",
+    "url": "/products/mango-pickle-300g"
+  },
+  {
+    "handle": "masala-papad",
+    "title": "Masala Papad",
+    "description": "Ammamma’s Masala Papad is a flavorful twist on the classic, crafted with a perfect blend of traditional spices to deliver a bold, chatpata taste in every bite. Made using quality ingredients and prepared in small batches, it offers a light, crispy texture with just the right amount of spice to elevate your meals or satisfy snack cravings. Free from unnecessary additives and packed with authentic homemade flavor, this papad can be roasted or fried for a crunchy delight that pairs perfectly with rice, curries, or as a standalone snack. With its rich taste and irresistible crunch, Ammamma’s Masala Papad turns every bite into a flavorful experience.",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-12edd28d4229.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/masala-papad"
+  },
+  {
+    "handle": "masala-sago-papad",
+    "title": "Masala Sago Papad",
+    "description": "Ammamma’s Masala Sago Papad is a deliciously spiced take on the traditional favorite, made from premium sago (sabudana) and blended with a flavorful mix of aromatic spices for a perfect balance of taste and crunch. Crafted using traditional homemade methods and prepared in small batches, it puffs up beautifully when fried, creating a light, crispy, and airy texture in every bite. Free from unnecessary additives, it makes an excellent accompaniment to meals or a quick, tasty snack anytime. With its rich masala flavor and satisfying crispness, Ammamma’s Masala Sago Papad brings a burst of authentic taste to your everyday snacking.",
+    "price": "90.0",
+    "available": true,
+    "images": [
+      "/assets/ref-fdc6601c845c.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/masala-sago-papad"
+  },
+  {
+    "handle": "methi-chapati-pack-of-10",
+    "title": "Methi Chapati (Pack of 10)",
+    "description": "Ammamma's Methi Chapati is a wholesome blend of whole wheat and aromatic methi (fenugreek) leaves, crafted to support a balanced and healthier lifestyle. Rich in natural goodness and traditional flavors, it offers a nourishing, fiber-rich option for everyday meals, delivering both taste and wellness in every soft and satisfying bite.",
+    "price": "94.0",
+    "available": true,
+    "images": [
+      "/assets/ref-11d9d56eeac3.png",
+      "/assets/ref-0de0d95d2a81.png",
+      "/assets/ref-9547be45924d.jpg",
+      "/assets/ref-3de589406d94.jpg"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/methi-chapati-pack-of-10"
+  },
+  {
+    "handle": "mixed-vegetable-pickle-300g",
+    "title": "Mixed Vegetable Pickle",
+    "description": "vegetables like carrot, mango, lime, and chillies infused with traditional spices and aromatic oil. This mixed veg pickle offers a perfect balance of spicy, tangy, and crunchy flavors, making every meal more delicious. A classic companion for rice, chapati, paratha, and curd rice.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-4fefd02a9732.jpg",
+      "/assets/ref-d55945c6af5d.jpg",
+      "/assets/ref-03cbfd89338c.jpg",
+      "/assets/ref-347dcd6f4c66.png"
+    ],
+    "options": [
+      "1Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/mixed-vegetable-pickle-300g"
+  },
+  {
+    "handle": "moong-papad",
+    "title": "Moong Papad",
+    "description": "Ammamma’s Moong Papad is a crispy, light, and flavorful accompaniment made from premium-quality moong dal using traditional homemade recipes. Prepared in small batches to ensure freshness and authentic taste, it delivers a clean, wholesome crunch without unnecessary additives. Whether roasted or fried, each papad expands perfectly and pairs beautifully with everyday meals or works as a quick, satisfying snack. With its easy-to-digest nature and rich, homestyle flavor, Ammamma’s Moong Papad brings the comfort of traditional kitchens straight to your plate.",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-34c9c3e6e1ec.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/moong-papad"
+  },
+  {
+    "handle": "moringa-chapati-pack-of-5",
+    "title": "Moringa Chapati (Pack of 10)",
+    "description": "Ammammas Moringa Chapati is a wholesome blend of whole wheat and nutrient-rich moringa, crafted to support a healthier everyday diet. Packed with natural goodness and balanced flavors, it offers a convenient way to add plant-based nutrition to your meals without compromising on taste, making each bite both nourishing and satisfying.",
+    "price": "94.0",
+    "available": true,
+    "images": [
+      "/assets/ref-a10cfd88c5a2.jpg",
+      "/assets/ref-49cdda679ae9.jpg",
+      "/assets/ref-7ecaaefd9acc.jpg",
+      "/assets/ref-2b3ab949317d.jpg",
+      "/assets/ref-3db8dad86336.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/moringa-chapati-pack-of-5"
+  },
+  {
+    "handle": "murukulu",
+    "title": "Murukulu",
+    "description": "Traditional South Indian spiral snack made with rice flour and urad dal, seasoned with cumin and sesame seeds. Perfectly crispy and addictive.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-996464a9ce30.jpg",
+      "/assets/ref-6fbabf08e122.jpg"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/murukulu"
+  },
+  {
+    "handle": "orange-candy",
+    "title": "Orange Candy - 200g",
+    "description": "Ammamma’s Orange Candy is a zesty, flavorful treat made from natural ingredients, delivering the perfect balance of sweet and tangy in every bite. Individually crafted in small batches, these candies are ideal for a quick snack, gifting, or satisfying your sweet cravings anytime. Bursting with authentic orange flavor.",
+    "price": "60.0",
+    "available": true,
+    "images": [
+      "/assets/ref-44821ce2efde.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/orange-candy"
+  },
+  {
+    "handle": "palli-chikki",
+    "title": "Palli Chikki - 150g",
+    "description": "Ammamma’s Palli Chikki is a crunchy, energy-packed traditional snack made from premium groundnuts and pure jaggery, crafted using authentic homemade methods. Each bite delivers a perfect balance of nutty richness and natural sweetness, without any artificial additives or preservatives. Prepared in small batches to ensure freshness and consistent quality, this chikki is an ideal on-the-go snack for quick energy, whether at work, school, or during travel. With its crisp texture and wholesome ingredients, Ammamma’s Palli Chikki brings together taste, nutrition, and tradition in every bite.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-b04b4b45e3ba.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/palli-chikki"
+  },
+  {
+    "handle": "palli-laddu-jumbo",
+    "title": "Palli Laddu (Jumbo) - 250g",
+    "description": "Ammamma’s Palli Laddu (Jumbo) is a wholesome, energy-packed sweet made from premium groundnuts and pure jaggery, crafted using traditional homemade methods. Each jumbo laddu is rich, crunchy, and naturally sweet, delivering a perfect balance of taste and nutrition without any artificial additives. Made in small batches for freshness, it serves as an ideal quick energy snack for all age groups whether as a post-meal treat or a healthy bite during the day. With its authentic flavor and generous size, Ammamma’s Palli Laddu brings the goodness of tradition in every satisfying bite.",
+    "price": "150.0",
+    "available": false,
+    "images": [
+      "/assets/ref-681c640992a0.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/palli-laddu-jumbo"
+  },
+  {
+    "handle": "palli-laddu",
+    "title": "Palli Laddu - 150g",
+    "description": "Ammamma’s Palli Laddu is a classic traditional sweet made from premium groundnuts and pure jaggery, crafted using time-tested homemade methods. Each laddu offers a perfect blend of nutty crunch and natural sweetness, delivering both taste and nourishment without any artificial additives. Prepared in small batches to ensure freshness and quality, it serves as an ideal everyday snack whether as a quick energy boost, a post-meal treat, or a healthy alternative to refined sweets. With its authentic flavor and wholesome ingredients, Ammamma’s Palli Laddu brings the goodness of tradition to every bite.",
+    "price": "100.0",
+    "available": false,
+    "images": [
+      "/assets/ref-fd06bef8f9d8.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/palli-laddu"
+  },
+  {
+    "handle": "plain-papad-big",
+    "title": "Plain Papad (Big)",
+    "description": "Ammamma’s Plain Papad (Big) is a classic, family-size essential crafted using quality ingredients and traditional homemade methods to deliver a perfectly light and crispy texture. Made in larger size for better coverage and satisfaction, each papad is prepared in small batches to ensure freshness and consistent quality without unnecessary additives. Ideal for everyday meals, it pairs perfectly with rice, dal, and curries, and can be roasted or fried for a crunchy delight. With its simple, authentic taste and generous size, Ammamma’s Plain Papad (Big) brings convenience, value, and tradition to every meal.",
+    "price": "120.0",
+    "available": true,
+    "images": [
+      "/assets/ref-2085894961e3.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/plain-papad-big"
+  },
+  {
+    "handle": "plain-papad",
+    "title": "Plain Papad (Small)",
+    "description": "Ammamma’s Plain Papad is a simple yet irresistible classic, crafted using quality ingredients and traditional homemade methods to deliver a perfectly light and crispy texture. Made in small batches for freshness, it offers a clean, authentic taste without unnecessary additives, making it the ideal everyday accompaniment to any meal. Whether roasted for a healthy crunch or fried for extra crispiness, this versatile papad complements rice, dal, and curries while also serving as a quick snack. With its balanced flavor and homestyle touch, Ammamma’s Plain Papad brings comfort and tradition to every bite",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-cd921d756bf1.png"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/plain-papad"
+  },
+  {
+    "handle": "plain-parota-pack-of-5",
+    "title": "Parota (Pack of 5)",
+    "description": "Ammammas Parota is layered to perfection, delivering a soft inside with delicate, flaky layers on the outside. Made with carefully selected ingredients and prepared using our traditional homestyle process, each parota offers rich texture and authentic taste.",
+    "price": "94.0",
+    "available": true,
+    "images": [
+      "/assets/ref-1257c8c963eb.png",
+      "/assets/ref-f46c7239e6c6.png",
+      "/assets/ref-b9b6133ebe4b.png",
+      "/assets/ref-f2e8e5396ae4.png",
+      "/assets/ref-3d3b7169bb82.png",
+      "/assets/ref-5683470f3bda.png",
+      "/assets/ref-b429955dcba0.png",
+      "/assets/ref-1c3872251720.png",
+      "/assets/ref-047dd104f58d.png"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/plain-parota-pack-of-5"
+  },
+  {
+    "handle": "plain-poori-pack-of-15",
+    "title": "Poori (Pack of 10)",
+    "description": "Ammammas Poori is crafted using carefully selected whole wheat flour and prepared with our signature homestyle approach to deliver perfectly puffed, soft, and golden pooris. Designed to absorb less oil while maintaining a light and fluffy texture, each poori reflects the authentic taste of traditional kitchens.",
+    "price": "50.0",
+    "available": true,
+    "images": [
+      "/assets/ref-fa31d7f87949.jpg"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/plain-poori-pack-of-15"
+  },
+  {
+    "handle": "plain-sago-papad",
+    "title": "Plain Sago Papad",
+    "description": "Ammamma’s Plain Sago Papad is a light and crispy traditional snack made from quality sago (sabudana), crafted using authentic homemade methods for a clean and refreshing taste. Prepared in small batches to ensure freshness, it puffs up beautifully when fried, offering an airy, crunchy texture that is easy to digest and enjoyable for all age groups. Ideal for fasting days or as a quick snack, it pairs perfectly with meals or can be enjoyed on its own. With its simple ingredients and homestyle preparation, Ammamma’s Plain Sago Papad brings a delicate crunch and traditional goodness to every bite.",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-c1cbdc9a8cbf.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/plain-sago-papad"
+  },
+  {
+    "handle": "ragi-chapati-pack-of-10",
+    "title": "Ragi Chapati (Pack of 10)",
+    "description": "Healthy ragi flour chapatis packed with calcium and iron",
+    "price": "50.0",
+    "available": true,
+    "images": [
+      "/assets/ref-c2b147a8914b.jpg"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/ragi-chapati-pack-of-10"
+  },
+  {
+    "handle": "red-chilli-pickle",
+    "title": "Red Chilli Pickle",
+    "description": "Ammamma’s Red Chilli Pickle is a fiery and flavourful delight made with fresh red chillies, blended with traditional spices and prepared in authentic homemade style. Bursting with bold heat and rich aroma, this pickle adds the perfect spicy kick to rice, roti, and curd rice. Carefully prepared and hygienically packed to bring you the true taste of traditional Andhra-style pickle in every spoon.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-f5a881d48c43.png",
+      "/assets/ref-71cad15f3049.png",
+      "/assets/ref-73ad503cc52e.png"
+    ],
+    "options": [
+      "1KG"
+    ],
+    "category": "pickles",
+    "url": "/products/red-chilli-pickle"
+  },
+  {
+    "handle": "red-chilli-sago-papad",
+    "title": "Red Chilli Sago Papad",
+    "description": "Ammamma’s Red Chilli Sago Papad is a flavorful twist on the classic, made from quality sago (sabudana) and infused with a bold red chilli kick for a perfect balance of lightness and spice. Crafted using traditional homemade methods and prepared in small batches, it puffs up beautifully when fried, delivering a crispy, airy texture with a spicy punch in every bite. Free from unnecessary additives, it serves as a great accompaniment to meals or a quick, satisfying snack. With its unique combination of crunch and heat, Ammamma’s Red Chilli Sago Papad adds excitement to your everyday snacking.",
+    "price": "100.0",
+    "available": true,
+    "images": [
+      "/assets/ref-0ff73c439231.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/red-chilli-sago-papad"
+  },
+  {
+    "handle": "ribbon-pakoda",
+    "title": "Ribbon Pakodi",
+    "description": "Thin, crispy ribbon-shaped pakoda made with gram flour and rice flour, seasoned with red chilli and cumin. A classic South Indian tea-time favourite.",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-d1bfce89cf0d.jpg",
+      "/assets/ref-0bf964f87cac.jpg"
+    ],
+    "options": [],
+    "category": "snacks",
+    "url": "/products/ribbon-pakoda"
+  },
+  {
+    "handle": "sambhar-masala",
+    "title": "Sambhar Masala",
+    "description": "Ammamma’s Sambhar Masala Powder brings you the authentic taste of South Indian kitchens, made from a perfect blend of roasted spices and lentils. Rich in aroma and flavor, it adds the signature taste to sambhar and other traditional dishes. Prepared using natural ingredients without any preservatives or chemicals, it ensures a wholesome, homemade experience with every meal.",
+    "price": "79.0",
+    "available": true,
+    "images": [
+      "/assets/ref-bddba89b269b.jpg"
+    ],
+    "options": [],
+    "category": "spices",
+    "url": "/products/sambhar-masala"
+  },
+  {
+    "handle": "special-triple-seed-laddu",
+    "title": "flaxseed +pumpkin +sesame Triple Seed Laddu",
+    "description": "Ammamma’s Triple Seed Laddu is a wholesome, nutrient-packed delight made from a rich blend of premium sesame (till), flax, and pumpkin seeds, bound naturally with jaggery. Crafted in small fresh batches, these laddus offer the perfect balance of crunch, sweetness, and traditional homemade flavor. Gluten-free, preservative-free, and energy-rich, they are perfect for a healthy snack, festive treat, or anytime boost of nutrition. Enjoy the power of three seeds in every bite!",
+    "price": "150.0",
+    "available": true,
+    "images": [
+      "/assets/ref-c572f075d433.png"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/special-triple-seed-laddu"
+  },
+  {
+    "handle": "spring-papad",
+    "title": "Spring Papad",
+    "description": "Ammamma’s Spring Papad is a delightful blend of tradition and taste, bringing a homemade touch to your everyday meals. Crafted from quality ingredients and prepared using time-honored methods, each papad delivers a light, crispy texture that perfectly complements every bite. Whether roasted or fried, it adds a burst of flavor to both simple meals and festive spreads. Ideal as a side or a quick snack, Ammamma’s Papad offers irresistible crunch, authentic taste, and the comforting essence of home in every serving.",
+    "price": "120.0",
+    "available": true,
+    "images": [
+      "/assets/ref-e058706f3c7d.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/spring-papad"
+  },
+  {
+    "handle": "tamarind-pickle-300g-copy",
+    "title": "Tamarind Pickle",
+    "description": "A rich and tangy tamarind pickle made from premium tamarind pulp blended with traditional spices and oil. Packed with bold, sour, and mildly spicy flavors, it perfectly complements rice, chapati, dosa, and curd rice. A classic condiment that adds a burst of authentic taste to every meal.",
+    "price": "149.0",
+    "available": true,
+    "images": [
+      "/assets/ref-9bca81ce3e63.jpg",
+      "/assets/ref-c977728f687b.jpg",
+      "/assets/ref-1cbb09f8d44e.jpg",
+      "/assets/ref-b480dc799f6a.png"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1kg"
+    ],
+    "category": "pickles",
+    "url": "/products/tamarind-pickle-300g-copy"
+  },
+  {
+    "handle": "till-laddu",
+    "title": "Till Laddu - 150g",
+    "description": "Ammamma’s Till Laddu is a traditional, nutrient-rich sweet made from premium till (sesame seeds) and natural jaggery, prepared in small, fresh batches for an authentic homemade taste. Perfectly crunchy yet melt-in-your-mouth, these laddus are gluten-free, preservative-free, and ideal as a healthy snack, festive treat, or anytime energy booster. Savor the wholesome goodness of classic Indian recipes in every bite.",
+    "price": "110.0",
+    "available": false,
+    "images": [
+      "/assets/ref-9f9000d5083c.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/till-laddu"
+  },
+  {
+    "handle": "tilli-chikki",
+    "title": "Till Chikki - 150g",
+    "description": "Ammamma’s Till Chikki is a traditional, crunchy delight made from premium sesame seeds (till) and natural jaggery, crafted in small fresh batches to deliver authentic homemade taste. Packed with nutrients, this gluten-free, preservative-free snack offers the perfect balance of sweetness and crunch, making it ideal for tea-time, festivals, or anytime you crave a healthy indulgence. Taste the richness of tradition in every bite!",
+    "price": "99.0",
+    "available": false,
+    "images": [
+      "/assets/ref-fdcac2f43b08.jpg"
+    ],
+    "options": [],
+    "category": "retro",
+    "url": "/products/tilli-chikki"
+  },
+  {
+    "handle": "tomato-pickle-300g-copy",
+    "title": "Tomato Pickle",
+    "description": "A flavorful and tangy tomato pickle made from ripe tomatoes blended with traditional spices and aromatic oil. It delivers a perfect balance of sour, spicy, and savory taste. Pairs beautifully with rice, chapati, dosa, and curd rice for an authentic homemade experience",
+    "price": "159.0",
+    "available": true,
+    "images": [
+      "/assets/ref-445ddc185bdb.jpg",
+      "/assets/ref-598fcf20879d.jpg",
+      "/assets/ref-1f8735766dd3.jpg",
+      "/assets/ref-b480dc799f6a.png"
+    ],
+    "options": [
+      "1Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/tomato-pickle-300g-copy"
+  },
+  {
+    "handle": "turmeric-powder",
+    "title": "Turmeric Powder",
+    "description": "Ammamma’s Turmeric Powder is made from high-quality turmeric roots, known for their vibrant color and natural goodness. Finely ground to preserve its rich flavor and health benefits, it adds a golden hue and earthy taste to your dishes. Free from preservatives and chemicals, this turmeric powder ensures purity, freshness, and the trusted quality of homemade spices.",
+    "price": "49.0",
+    "available": false,
+    "images": [
+      "/assets/ref-b2eabf201e02.jpg"
+    ],
+    "options": [
+      "100g",
+      "200g"
+    ],
+    "category": "spices",
+    "url": "/products/turmeric-powder"
+  },
+  {
+    "handle": "turum-pachadi-hot",
+    "title": "Turum Pachadi Hot",
+    "description": "Ammamma’s Turum pachadi Hot is a fiery and flavorful chutney crafted from fresh turmeric and a robust blend of traditional spices. Prepared using authentic homemade methods in small batches, it offers a bold taste with earthy turmeric notes and a satisfying spicy kick. Its rich texture and vibrant flavor make it a perfect accompaniment to rice, dosas, idlis, or chapatis. Free from unnecessary additives, Ammamma’s Turum Pachadi Hot is a wholesome and delicious way to enjoy the goodness of turmeric with every meal.",
+    "price": "159.0",
+    "available": false,
+    "images": [
+      "/assets/ref-521f3356e640.jpg"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/turum-pachadi-hot"
+  },
+  {
+    "handle": "turum-pachadi-sweet",
+    "title": "Turum Pachadi Sweet",
+    "description": "Ammamma’s Turum pachadi Sweet is a delightful fusion of fresh turmeric, natural sweetness, and aromatic spices, creating a unique balance of flavor in every spoonful. Made in small batches using traditional homemade methods, it combines the earthy richness of turmeric with a gentle sweetness for a comforting and versatile taste. Perfect as a side with rice, rotis, dosas, or festive meals, it adds warmth and flavor to your plate. Free from unnecessary additives, Ammamma’s Turum pachadi Sweet offers a delicious homemade touch with the goodness of turmeric.",
+    "price": "149.0",
+    "available": false,
+    "images": [
+      "/assets/ref-d64cd9fbd76f.jpg"
+    ],
+    "options": [
+      "300g",
+      "500g",
+      "1 Kg"
+    ],
+    "category": "pickles",
+    "url": "/products/turum-pachadi-sweet"
+  },
+  {
+    "handle": "wheels-papad",
+    "title": "Wheels Papad",
+    "description": "Ammamma’s Wheels Papad is a fun and crispy snack crafted to bring together great taste and delightful crunch in every bite. Made using quality ingredients and prepared in small batches for freshness, these wheel-shaped papad puff up beautifully when fried, delivering a light, airy texture that everyone loves. Perfect as a quick snack for kids or as a crunchy side with meals, they offer a playful twist to traditional papad while maintaining a clean, homestyle taste without unnecessary additives. With its unique shape and irresistible crispiness, Ammamma’s Wheels Papad makes snacking more enjoyable every time.",
+    "price": "60.0",
+    "available": true,
+    "images": [
+      "/assets/ref-7f7072501c2b.jpg"
+    ],
+    "options": [],
+    "category": "fryum-factory",
+    "url": "/products/wheels-papad"
+  },
+  {
+    "handle": "whole-wheat-chapati-pack-of-10",
+    "title": "Whole Wheat Chapati (Pack of 10)",
+    "description": "Ammammas Whole Wheat Chapati is made from carefully selected whole wheat flour and prepared using our signature homestyle method to ensure softness, freshness, and authentic taste. Each chapati is evenly rolled and perfectly cooked to deliver a light, pliable texture that pairs effortlessly with any curry or sabzi. Simple, wholesome, and comforting, Ammammas Whole Wheat Chapati brings the warmth of traditional kitchens to your everyday meals",
+    "price": "78.0",
+    "available": true,
+    "images": [
+      "/assets/ref-831f8be3c44a.png",
+      "/assets/ref-913802ffcdb5.png",
+      "/assets/ref-258683e9028e.jpg",
+      "/assets/ref-ae295fbd8394.jpg",
+      "/assets/ref-04182f77cba3.jpg",
+      "/assets/ref-7fe6516aa799.jpg",
+      "/assets/ref-90723d2c035a.jpg",
+      "/assets/ref-1196995d5a32.jpg",
+      "/assets/ref-742e99436224.jpg"
+    ],
+    "options": [],
+    "category": "ready-to-cook",
+    "url": "/products/whole-wheat-chapati-pack-of-10"
+  }
+]

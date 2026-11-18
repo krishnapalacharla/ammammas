@@ -1,0 +1,4 @@
+<article class="container content-page"><h1>{{ article.title | escape }}</h1>{% if article.image %}{{ article.image | image_url: width: 1200 | image_tag: loading: 'eager' }}{% endif %}<div>{{ article.content }}</div></article>
+{% schema %}
+{"name": "Recipe article", "settings": []}
+{% endschema %}

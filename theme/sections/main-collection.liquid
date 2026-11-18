@@ -1,0 +1,4 @@
+<section class="container page-heading"><span class="eyebrow">Ammamma’s kitchen</span><h1>{{ collection.title | escape }}</h1><div>{{ collection.description }}</div><form method="get"><label for="SortBy">Sort products</label><select id="SortBy" name="sort_by">{% for option in collection.sort_options %}<option value="{{ option.value }}" {% if option.value == collection.sort_by %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select><button class="button">Sort</button></form></section><section class="container">{% paginate collection.products by 24 %}<div class="product-grid">{% for product in collection.products %}{% render 'product-card', product: product %}{% else %}<p>No products found.</p>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}</section>
+{% schema %}
+{"name": "Collection", "settings": []}
+{% endschema %}

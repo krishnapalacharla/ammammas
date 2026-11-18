@@ -1,0 +1,14 @@
+{
+  "static_checks": "passed",
+  "javascript_syntax": "passed",
+  "pages": 97,
+  "products": 73,
+  "incomplete_product_detail_captures": [
+    "ammammas-crispy-triangle-frym",
+    "ammammas-curd-chillies-papad",
+    "lemon-pickle-300g"
+  ],
+  "browser_qa": "blocked by browser automation errors",
+  "http_check": "blocked by socket permission",
+  "shopify_theme_check": "pending CLI and store access"
+}

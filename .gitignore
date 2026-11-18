@@ -1,0 +1,15 @@
+website-reference/
+reference-inventory.json
+node_modules/
+.env
+.env.*
+!.env.example
+.shopify/
+shopify.theme.toml
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+
+preview/reference-data.json
+**/__pycache__/

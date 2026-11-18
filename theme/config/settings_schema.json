@@ -1,0 +1,33 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Ammammas Heritage",
+    "theme_version": "0.1.0",
+    "theme_author": "Rashomone",
+    "theme_documentation_url": "https://shopify.dev/docs/storefronts/themes",
+    "theme_support_url": "https://www.ammammas.in/contact"
+  },
+  {
+    "name": "Presentation colours",
+    "settings": [
+      {
+        "type": "color",
+        "id": "brand_red",
+        "label": "Brand red",
+        "default": "#e21331"
+      },
+      {
+        "type": "color",
+        "id": "brand_cream",
+        "label": "Brand cream",
+        "default": "#fdf0d6"
+      },
+      {
+        "type": "color",
+        "id": "brand_brown",
+        "label": "Brand brown",
+        "default": "#77290d"
+      }
+    ]
+  }
+]

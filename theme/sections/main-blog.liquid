@@ -1,0 +1,4 @@
+<section class="container content-page"><h1>{{ blog.title | escape }}</h1>{% paginate blog.articles by 12 %}<div class="product-grid">{% for article in blog.articles %}<article>{% if article.image %}<a href="{{ article.url }}">{{ article.image | image_url: width: 700 | image_tag: loading: 'lazy' }}</a>{% endif %}<h2><a href="{{ article.url }}">{{ article.title | escape }}</a></h2><div>{{ article.excerpt }}</div></article>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}</section>
+{% schema %}
+{"name": "Recipes", "settings": []}
+{% endschema %}

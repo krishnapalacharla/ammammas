@@ -1,0 +1,1 @@
+Use only logo artwork from the launch presentation. Existing website logos are excluded. Presentation source artwork is preserved in ../source-artwork/. Do not substitute old website mascots or newly generated concepts.

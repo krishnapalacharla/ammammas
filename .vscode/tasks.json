@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Preview website",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "scripts/preview_server.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Rebuild captured content and Shopify theme",
+      "type": "shell",
+      "command": "python scripts/build_preview.py; python scripts/build_theme.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

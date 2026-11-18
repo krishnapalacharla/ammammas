@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "name": "Ammamma Shopify website",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "website-reference": true
+    },
+    "search.exclude": {
+      "website-reference/**": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "Shopify.theme-check-vscode"
+    ]
+  }
+}

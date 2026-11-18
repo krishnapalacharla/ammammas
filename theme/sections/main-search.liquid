@@ -1,0 +1,4 @@
+<section class="container content-page"><h1>Search</h1><form action="{{ routes.search_url }}" method="get"><input name="q" type="search" value="{{ search.terms | escape }}" aria-label="Search products"><input name="type" type="hidden" value="product"><button class="button">Search</button></form>{% if search.performed %}{% paginate search.results by 24 %}<div class="product-grid">{% for product in search.results %}{% render 'product-card', product: product %}{% else %}<p>No products found.</p>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}{% endif %}</section>
+{% schema %}
+{"name": "Search", "settings": []}
+{% endschema %}

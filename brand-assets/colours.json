@@ -1,0 +1,9 @@
+{
+  "source": "Existing launch presentation styles.css :root; reference, not a newly approved palette",
+  "colours": {
+    "red": "#e21331",
+    "cream": "#fdf0d6",
+    "brown": "#77290d",
+    "ink": "#211c18"
+  }
+}

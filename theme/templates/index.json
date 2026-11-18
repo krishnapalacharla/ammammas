@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "s0": {
+      "type": "home-hero"
+    },
+    "s1": {
+      "type": "home-01"
+    },
+    "s2": {
+      "type": "home-02"
+    },
+    "s3": {
+      "type": "home-03"
+    },
+    "s4": {
+      "type": "home-04"
+    },
+    "s5": {
+      "type": "home-05"
+    },
+    "s6": {
+      "type": "home-06"
+    },
+    "s7": {
+      "type": "home-07"
+    },
+    "s8": {
+      "type": "home-08"
+    }
+  },
+  "order": [
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8"
+  ]
+}

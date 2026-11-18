@@ -1,0 +1,487 @@
+[
+  {
+    "reference": "/about",
+    "shopify": "/pages/about",
+    "content_source": "about.html"
+  },
+  {
+    "reference": "/category/fryum-factory",
+    "shopify": "/collections/fryum-factory",
+    "content_source": "category\\fryum-factory.html"
+  },
+  {
+    "reference": "/category/ghee",
+    "shopify": "/collections/ghee",
+    "content_source": "category\\ghee.html"
+  },
+  {
+    "reference": "/category/pickles",
+    "shopify": "/collections/pickles",
+    "content_source": "category\\pickles.html"
+  },
+  {
+    "reference": "/category/ready-to-cook",
+    "shopify": "/collections/ready-to-cook",
+    "content_source": "category\\ready-to-cook.html"
+  },
+  {
+    "reference": "/category/retro",
+    "shopify": "/collections/retro",
+    "content_source": "category\\retro.html"
+  },
+  {
+    "reference": "/category/snacks",
+    "shopify": "/collections/snacks",
+    "content_source": "category\\snacks.html"
+  },
+  {
+    "reference": "/category/spices",
+    "shopify": "/collections/spices",
+    "content_source": "category\\spices.html"
+  },
+  {
+    "reference": "/contact",
+    "shopify": "/pages/contact",
+    "content_source": "contact.html"
+  },
+  {
+    "reference": "/faq",
+    "shopify": "/pages/faq",
+    "content_source": "faq.html"
+  },
+  {
+    "reference": "/",
+    "shopify": "/",
+    "content_source": "index.html"
+  },
+  {
+    "reference": "/investor-relations",
+    "shopify": "/pages/investor-relations",
+    "content_source": "investor-relations.html"
+  },
+  {
+    "reference": "/press",
+    "shopify": "/pages/press",
+    "content_source": "press.html"
+  },
+  {
+    "reference": "/privacy-policy",
+    "shopify": "/pages/privacy-policy",
+    "content_source": "privacy-policy.html"
+  },
+  {
+    "reference": "/products/ajwain-papad",
+    "shopify": "/products/ajwain-papad",
+    "content_source": "products\\ajwain-papad.html"
+  },
+  {
+    "reference": "/products/ammammas-amla-pickle",
+    "shopify": "/products/ammammas-amla-pickle",
+    "content_source": "products\\ammammas-amla-pickle.html"
+  },
+  {
+    "reference": "/products/ammammas-coconut-chana-chutney",
+    "shopify": "/products/ammammas-coconut-chana-chutney",
+    "content_source": "products\\ammammas-coconut-chana-chutney.html"
+  },
+  {
+    "reference": "/products/ammammas-crispy-triangle-frym",
+    "shopify": "/products/ammammas-crispy-triangle-frym",
+    "content_source": "products\\ammammas-crispy-triangle-frym.html"
+  },
+  {
+    "reference": "/products/ammammas-curd-chillies-papad",
+    "shopify": "/products/ammammas-curd-chillies-papad",
+    "content_source": "products\\ammammas-curd-chillies-papad.html"
+  },
+  {
+    "reference": "/products/ammammas-curry-leaf-podi",
+    "shopify": "/products/ammammas-curry-leaf-podi",
+    "content_source": "products\\ammammas-curry-leaf-podi.html"
+  },
+  {
+    "reference": "/products/ammammas-dalmoth",
+    "shopify": "/products/ammammas-dalmoth",
+    "content_source": "products\\ammammas-dalmoth.html"
+  },
+  {
+    "reference": "/products/ammammas-dosa-idly-batter-0-5-kg",
+    "shopify": "/products/ammammas-dosa-idly-batter-0-5-kg",
+    "content_source": "products\\ammammas-dosa-idly-batter-0-5-kg.html"
+  },
+  {
+    "reference": "/products/ammammas-flax-seed-podi",
+    "shopify": "/products/ammammas-flax-seed-podi",
+    "content_source": "products\\ammammas-flax-seed-podi.html"
+  },
+  {
+    "reference": "/products/ammammas-gavvalu",
+    "shopify": "/products/ammammas-gavvalu",
+    "content_source": "products\\ammammas-gavvalu.html"
+  },
+  {
+    "reference": "/products/ammammas-ginger-chutney",
+    "shopify": "/products/ammammas-ginger-chutney",
+    "content_source": "products\\ammammas-ginger-chutney.html"
+  },
+  {
+    "reference": "/products/ammammas-ginger-pickle",
+    "shopify": "/products/ammammas-ginger-pickle",
+    "content_source": "products\\ammammas-ginger-pickle.html"
+  },
+  {
+    "reference": "/products/ammammas-kandipodi",
+    "shopify": "/products/ammammas-kandipodi",
+    "content_source": "products\\ammammas-kandipodi.html"
+  },
+  {
+    "reference": "/products/ammammas-moringa-leaf-podi",
+    "shopify": "/products/ammammas-moringa-leaf-podi",
+    "content_source": "products\\ammammas-moringa-leaf-podi.html"
+  },
+  {
+    "reference": "/products/ammammas-nalla-karam",
+    "shopify": "/products/ammammas-nalla-karam",
+    "content_source": "products\\ammammas-nalla-karam.html"
+  },
+  {
+    "reference": "/products/ammammas-peanut-chutney",
+    "shopify": "/products/ammammas-peanut-chutney",
+    "content_source": "products\\ammammas-peanut-chutney.html"
+  },
+  {
+    "reference": "/products/ammammas-red-chilli-gongura",
+    "shopify": "/products/ammammas-red-chilli-gongura",
+    "content_source": "products\\ammammas-red-chilli-gongura.html"
+  },
+  {
+    "reference": "/products/ammammas-ring-fryums",
+    "shopify": "/products/ammammas-ring-fryums",
+    "content_source": "products\\ammammas-ring-fryums.html"
+  },
+  {
+    "reference": "/products/ammammas-tomato-chutney",
+    "shopify": "/products/ammammas-tomato-chutney",
+    "content_source": "products\\ammammas-tomato-chutney.html"
+  },
+  {
+    "reference": "/products/ammammas-tube-fryums",
+    "shopify": "/products/ammammas-tube-fryums",
+    "content_source": "products\\ammammas-tube-fryums.html"
+  },
+  {
+    "reference": "/products/ammammas-velluli-karam",
+    "shopify": "/products/ammammas-velluli-karam",
+    "content_source": "products\\ammammas-velluli-karam.html"
+  },
+  {
+    "reference": "/products/bellam-avakay",
+    "shopify": "/products/bellam-avakay",
+    "content_source": "products\\bellam-avakay.html"
+  },
+  {
+    "reference": "/products/bellam-zedilu-250g",
+    "shopify": "/products/bellam-zedilu-250g",
+    "content_source": "products\\bellam-zedilu-250g.html"
+  },
+  {
+    "reference": "/products/boondi",
+    "shopify": "/products/boondi",
+    "content_source": "products\\boondi.html"
+  },
+  {
+    "reference": "/products/buffalo-ghee-200ml",
+    "shopify": "/products/buffalo-ghee-200ml",
+    "content_source": "products\\buffalo-ghee-200ml.html"
+  },
+  {
+    "reference": "/products/buffalo-ghee",
+    "shopify": "/products/buffalo-ghee",
+    "content_source": "products\\buffalo-ghee.html"
+  },
+  {
+    "reference": "/products/cauliflower-pickle",
+    "shopify": "/products/cauliflower-pickle",
+    "content_source": "products\\cauliflower-pickle.html"
+  },
+  {
+    "reference": "/products/chakodi",
+    "shopify": "/products/chakodi",
+    "content_source": "products\\chakodi.html"
+  },
+  {
+    "reference": "/products/chekkalu",
+    "shopify": "/products/chekkalu",
+    "content_source": "products\\chekkalu.html"
+  },
+  {
+    "reference": "/products/chilli-powder",
+    "shopify": "/products/chilli-powder",
+    "content_source": "products\\chilli-powder.html"
+  },
+  {
+    "reference": "/products/cow-ghee-500ml",
+    "shopify": "/products/cow-ghee-500ml",
+    "content_source": "products\\cow-ghee-500ml.html"
+  },
+  {
+    "reference": "/products/cow-ghee",
+    "shopify": "/products/cow-ghee",
+    "content_source": "products\\cow-ghee.html"
+  },
+  {
+    "reference": "/products/dhaniya-powder",
+    "shopify": "/products/dhaniya-powder",
+    "content_source": "products\\dhaniya-powder.html"
+  },
+  {
+    "reference": "/products/garam-masala",
+    "shopify": "/products/garam-masala",
+    "content_source": "products\\garam-masala.html"
+  },
+  {
+    "reference": "/products/gongura-pickle-300g",
+    "shopify": "/products/gongura-pickle-300g",
+    "content_source": "products\\gongura-pickle-300g.html"
+  },
+  {
+    "reference": "/products/idli-dosa-batter-1kg",
+    "shopify": "/products/idli-dosa-batter-1kg",
+    "content_source": "products\\idli-dosa-batter-1kg.html"
+  },
+  {
+    "reference": "/products/jantikalu",
+    "shopify": "/products/jantikalu",
+    "content_source": "products\\jantikalu.html"
+  },
+  {
+    "reference": "/products/jeera-powder",
+    "shopify": "/products/jeera-powder",
+    "content_source": "products\\jeera-powder.html"
+  },
+  {
+    "reference": "/products/lemon-pickle-300g",
+    "shopify": "/products/lemon-pickle-300g",
+    "content_source": "products\\lemon-pickle-300g.html"
+  },
+  {
+    "reference": "/products/maagai",
+    "shopify": "/products/maagai",
+    "content_source": "products\\maagai.html"
+  },
+  {
+    "reference": "/products/mango-pickle-300g",
+    "shopify": "/products/mango-pickle-300g",
+    "content_source": "products\\mango-pickle-300g.html"
+  },
+  {
+    "reference": "/products/masala-papad",
+    "shopify": "/products/masala-papad",
+    "content_source": "products\\masala-papad.html"
+  },
+  {
+    "reference": "/products/masala-sago-papad",
+    "shopify": "/products/masala-sago-papad",
+    "content_source": "products\\masala-sago-papad.html"
+  },
+  {
+    "reference": "/products/methi-chapati-pack-of-10",
+    "shopify": "/products/methi-chapati-pack-of-10",
+    "content_source": "products\\methi-chapati-pack-of-10.html"
+  },
+  {
+    "reference": "/products/mixed-vegetable-pickle-300g",
+    "shopify": "/products/mixed-vegetable-pickle-300g",
+    "content_source": "products\\mixed-vegetable-pickle-300g.html"
+  },
+  {
+    "reference": "/products/moong-papad",
+    "shopify": "/products/moong-papad",
+    "content_source": "products\\moong-papad.html"
+  },
+  {
+    "reference": "/products/moringa-chapati-pack-of-5",
+    "shopify": "/products/moringa-chapati-pack-of-5",
+    "content_source": "products\\moringa-chapati-pack-of-5.html"
+  },
+  {
+    "reference": "/products/murukulu",
+    "shopify": "/products/murukulu",
+    "content_source": "products\\murukulu.html"
+  },
+  {
+    "reference": "/products/orange-candy",
+    "shopify": "/products/orange-candy",
+    "content_source": "products\\orange-candy.html"
+  },
+  {
+    "reference": "/products/palli-chikki",
+    "shopify": "/products/palli-chikki",
+    "content_source": "products\\palli-chikki.html"
+  },
+  {
+    "reference": "/products/palli-laddu-jumbo",
+    "shopify": "/products/palli-laddu-jumbo",
+    "content_source": "products\\palli-laddu-jumbo.html"
+  },
+  {
+    "reference": "/products/palli-laddu",
+    "shopify": "/products/palli-laddu",
+    "content_source": "products\\palli-laddu.html"
+  },
+  {
+    "reference": "/products/plain-papad-big",
+    "shopify": "/products/plain-papad-big",
+    "content_source": "products\\plain-papad-big.html"
+  },
+  {
+    "reference": "/products/plain-papad",
+    "shopify": "/products/plain-papad",
+    "content_source": "products\\plain-papad.html"
+  },
+  {
+    "reference": "/products/plain-parota-pack-of-5",
+    "shopify": "/products/plain-parota-pack-of-5",
+    "content_source": "products\\plain-parota-pack-of-5.html"
+  },
+  {
+    "reference": "/products/plain-poori-pack-of-15",
+    "shopify": "/products/plain-poori-pack-of-15",
+    "content_source": "products\\plain-poori-pack-of-15.html"
+  },
+  {
+    "reference": "/products/plain-sago-papad",
+    "shopify": "/products/plain-sago-papad",
+    "content_source": "products\\plain-sago-papad.html"
+  },
+  {
+    "reference": "/products/ragi-chapati-pack-of-10",
+    "shopify": "/products/ragi-chapati-pack-of-10",
+    "content_source": "products\\ragi-chapati-pack-of-10.html"
+  },
+  {
+    "reference": "/products/red-chilli-pickle",
+    "shopify": "/products/red-chilli-pickle",
+    "content_source": "products\\red-chilli-pickle.html"
+  },
+  {
+    "reference": "/products/red-chilli-sago-papad",
+    "shopify": "/products/red-chilli-sago-papad",
+    "content_source": "products\\red-chilli-sago-papad.html"
+  },
+  {
+    "reference": "/products/ribbon-pakoda",
+    "shopify": "/products/ribbon-pakoda",
+    "content_source": "products\\ribbon-pakoda.html"
+  },
+  {
+    "reference": "/products/sambhar-masala",
+    "shopify": "/products/sambhar-masala",
+    "content_source": "products\\sambhar-masala.html"
+  },
+  {
+    "reference": "/products/special-triple-seed-laddu",
+    "shopify": "/products/special-triple-seed-laddu",
+    "content_source": "products\\special-triple-seed-laddu.html"
+  },
+  {
+    "reference": "/products/spring-papad",
+    "shopify": "/products/spring-papad",
+    "content_source": "products\\spring-papad.html"
+  },
+  {
+    "reference": "/products/tamarind-pickle-300g-copy",
+    "shopify": "/products/tamarind-pickle-300g-copy",
+    "content_source": "products\\tamarind-pickle-300g-copy.html"
+  },
+  {
+    "reference": "/products/till-laddu",
+    "shopify": "/products/till-laddu",
+    "content_source": "products\\till-laddu.html"
+  },
+  {
+    "reference": "/products/tilli-chikki",
+    "shopify": "/products/tilli-chikki",
+    "content_source": "products\\tilli-chikki.html"
+  },
+  {
+    "reference": "/products/tomato-pickle-300g-copy",
+    "shopify": "/products/tomato-pickle-300g-copy",
+    "content_source": "products\\tomato-pickle-300g-copy.html"
+  },
+  {
+    "reference": "/products/turmeric-powder",
+    "shopify": "/products/turmeric-powder",
+    "content_source": "products\\turmeric-powder.html"
+  },
+  {
+    "reference": "/products/turum-pachadi-hot",
+    "shopify": "/products/turum-pachadi-hot",
+    "content_source": "products\\turum-pachadi-hot.html"
+  },
+  {
+    "reference": "/products/turum-pachadi-sweet",
+    "shopify": "/products/turum-pachadi-sweet",
+    "content_source": "products\\turum-pachadi-sweet.html"
+  },
+  {
+    "reference": "/products/wheels-papad",
+    "shopify": "/products/wheels-papad",
+    "content_source": "products\\wheels-papad.html"
+  },
+  {
+    "reference": "/products/whole-wheat-chapati-pack-of-10",
+    "shopify": "/products/whole-wheat-chapati-pack-of-10",
+    "content_source": "products\\whole-wheat-chapati-pack-of-10.html"
+  },
+  {
+    "reference": "/products",
+    "shopify": "/collections/all",
+    "content_source": "products.html"
+  },
+  {
+    "reference": "/recipes/chapati-wraps-with-paneer",
+    "shopify": "/blogs/recipes/chapati-wraps-with-paneer",
+    "content_source": "recipes\\chapati-wraps-with-paneer.html"
+  },
+  {
+    "reference": "/recipes/parota-egg-kothu",
+    "shopify": "/blogs/recipes/parota-egg-kothu",
+    "content_source": "recipes\\parota-egg-kothu.html"
+  },
+  {
+    "reference": "/recipes/poori-with-aloo-curry",
+    "shopify": "/blogs/recipes/poori-with-aloo-curry",
+    "content_source": "recipes\\poori-with-aloo-curry.html"
+  },
+  {
+    "reference": "/recipes/spice-infused-buttermilk",
+    "shopify": "/blogs/recipes/spice-infused-buttermilk",
+    "content_source": "recipes\\spice-infused-buttermilk.html"
+  },
+  {
+    "reference": "/recipes",
+    "shopify": "/blogs/recipes",
+    "content_source": "recipes.html"
+  },
+  {
+    "reference": "/shipping-returns",
+    "shopify": "/pages/shipping-returns",
+    "content_source": "shipping-returns.html"
+  },
+  {
+    "reference": "/supporters",
+    "shopify": "/pages/supporters",
+    "content_source": "supporters.html"
+  },
+  {
+    "reference": "/terms-of-service",
+    "shopify": "/pages/terms-of-service",
+    "content_source": "terms-of-service.html"
+  },
+  {
+    "reference": "/wishlist",
+    "shopify": "/pages/wishlist",
+    "content_source": "wishlist.html"
+  }
+]
