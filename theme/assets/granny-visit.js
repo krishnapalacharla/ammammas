@@ -3,7 +3,7 @@ window.initGrannyVisit=function(){
  if(window.grannyVisitStarted||!document.querySelector('.brand-logo'))return;
  window.grannyVisitStarted=true;
  const sayings=[
-  'Keep this money. No need to tell anyone.',
+  'Keep this money. Don\'t tell Mom.',
   'I saved the best mango for you. Shh.',
   'You said you were coming. I started cooking yesterday.',
   'Full already? That was only the first serving.',
@@ -29,24 +29,24 @@ window.initGrannyVisit=function(){
  const close=document.createElement('button');close.type='button';close.className='granny-visit-close';close.setAttribute('aria-label','Dismiss Ammamma sayings for this visit');close.textContent='\u00d7';
  popup.append(image,copy,close);document.body.append(popup);
  let queue=[],timer,fadeTimer,holdTimer,visible=false,dismissed=false;
- const delay=()=>35000+Math.random()*25000;
+ const delay=()=>12000+Math.random()*8000;
  function schedule(ms=delay()){clearTimeout(timer);if(!dismissed)timer=setTimeout(show,ms)}
  function hide(){clearTimeout(holdTimer);visible=false;popup.classList.remove('is-visible');fadeTimer=setTimeout(()=>{popup.hidden=true;line.textContent='';schedule()},1100)}
  function hold(){clearTimeout(holdTimer)}
- function release(){if(visible)holdTimer=setTimeout(hide,12000)}
+ function release(){if(visible)holdTimer=setTimeout(hide,8000)}
  function show(){
   if(dismissed)return;
   if(document.hidden||document.querySelector('dialog[open]')||document.querySelector('.search-bar:not([hidden])')){schedule(12000);return}
   if(!queue.length)queue=sayings.map((_,i)=>i).sort(()=>Math.random()-.5);
   popup.hidden=false;line.textContent=sayings[queue.pop()];visible=true;
   requestAnimationFrame(()=>requestAnimationFrame(()=>popup.classList.add('is-visible')));
-  holdTimer=setTimeout(hide,14000);
+  holdTimer=setTimeout(hide,8000);
  }
  popup.addEventListener('pointerenter',hold);popup.addEventListener('pointerleave',release);
  popup.addEventListener('focusin',hold);popup.addEventListener('focusout',release);
  close.onclick=()=>{dismissed=true;clearTimeout(timer);clearTimeout(holdTimer);clearTimeout(fadeTimer);popup.classList.remove('is-visible');setTimeout(()=>popup.hidden=true,1100)};
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&visible)close.click()});
- document.addEventListener('visibilitychange',()=>{if(document.hidden){clearTimeout(timer);if(visible)hide()}else if(!visible)schedule(14000)});
- schedule(10000+Math.random()*6000);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden){clearTimeout(timer);if(visible)hide()}else if(!visible)schedule(5000)});
+ schedule(3000+Math.random()*2000);
 };
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>window.initGrannyVisit());else window.initGrannyVisit();

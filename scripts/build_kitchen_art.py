@@ -23,6 +23,12 @@ footer=E.parse(R.parent/'horizontal logo.svg').getroot()
 for text in footer.findall('.//s:text',ns):
     if '208' in text.attrib.get('transform',''):
         text.set('style','font:600 20px Arial,sans-serif;fill:#77290d')
+footer_type=footer.find('s:g/s:g',ns)[1]
+footer_type.set('transform','translate(0 7)')
+footer_descriptor=footer_type.findall('s:g',ns)[1]
+for child in list(footer_descriptor):footer_descriptor.remove(child)
+footer_text=E.SubElement(footer_descriptor,'{'+ns['s']+'}text',{'x':'553','y':'154','text-anchor':'middle','style':'font:600 23px Arial,sans-serif;letter-spacing:1px;fill:#77290d'})
+footer_text.text='SPICES  |  GHEE  |  PICKLES  |  SNACKS'
 E.ElementTree(footer).write(A/'ammammas-footer-logo.svg',encoding='unicode')
 art={
 'pickles':('<path fill="#fdbb5b" d="M58 61H122V131Q90 148 58 131Z"/>','<path d="M57 59H123V132Q90 148 57 132ZM53 49H127V60H53ZM62 42H118V49M66 81Q91 66 114 84M69 122Q91 136 111 119"/><path d="M78 89Q96 78 109 93Q94 118 77 110Q67 102 78 89ZM89 98L104 90M73 34Q81 19 95 23Q98 34 84 38M90 37L96 26"/>'),
