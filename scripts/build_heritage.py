@@ -27,8 +27,22 @@ def native(html):
     html=html.replace('href="/category/','href="/collections/').replace('href="/products"','href="/collections/all"').replace('href="/about"','href="/pages/about"').replace('href="/privacy-policy"','href="/pages/privacy-policy"')
     return html
 def section(name,html,settings=None):return native(html)+'\n{% schema %}\n'+json.dumps({'name':name,'settings':settings or []})+'\n{% endschema %}'
+granny_notes={
+'heritage-categories':("Come in, kanna. Have you eaten?", "That was not a question. Sit down."),
+'heritage-featured':("A little extra ghee never hurt a story.", "Measure with your heart. Especially the ghee."),
+'heritage-bundles':("Take some home. I packed a little extra.", "One box for you. One for the person who steals yours."),
+'heritage-story':("Recipes? I measure with this hand.", "The secret ingredient? I will tell you after lunch."),
+'heritage-testimonials':("You liked it? Good. Have some more.", "Full? There is always room for one more bite."),
+}
+def granny_note(key):
+    line,extra=granny_notes[key]
+    return '<aside class="granny-note" data-granny-note><img src="/assets/ammammas-granny.svg" alt="" loading="lazy"><div><span class="granny-note-label">Ammamma says</span><p data-granny-line>'+e(line)+'</p></div><button type="button" data-granny-another data-lines="'+e(__import__('json').dumps([line,extra]),quote=True)+'" aria-label="Read another saying from Ammamma">One more, Ammamma <span aria-hidden="true">↻</span></button></aside>'
 out=[];template={'sections':{},'order':[]}
 def add(handle,title,html,shopify=None,settings=None):
+    if handle in granny_notes:
+        note=granny_note(handle)
+        html+=note
+        if shopify:shopify+=note
     out.append(html);(T/'sections'/(handle+'.liquid')).write_text(section(title,shopify or html,settings),encoding='utf-8');template['sections'][handle]={'type':handle};template['order'].append(handle)
 imgs=[n.attrs['src'] for n in sections[0].all('img')]
 slides=[('Homemade Goodness Delivered','Homemade\nGoodness\nDelivered.', '',imgs[0],'/products','Shop Now'),('New Arrivals This Week','Authentic\nAndhra\nPickles.','Hand-pounded spices, Premium quality oils, and recipes passed down through generations. No preservatives, just pure taste.',imgs[1],'/category/pickles','Shop Pickles'),('Healthy & Wholesome','Healthy &\nWholesome.','',imgs[2],'/category/ready-to-cook','Order Now')]
@@ -41,8 +55,8 @@ cats=[('pickles','Pickles'),('spices','Spice Powders'),('ready-to-cook','Ready t
 tiles=[]
 for h,title in cats:
     p=next((p for p in D['products'] if p['category']==h),None)
-    if p:tiles.append(f'<a class="market-category" href="/category/{h}" data-reveal><span><img src="{p["images"][0]}" alt="{title}" loading="lazy"></span><strong>{title}</strong></a>')
-add('heritage-categories','Kitchen categories','<section class="market-categories container"><div class="heritage-caption"><span></span><p>Explore Categories</p><span></span></div><div class="market-category-row">'+''.join(tiles)+'</div><div class="kitchen-sketches" aria-hidden="true"><span class="art-wash"><img src="/assets/spice-sprig.svg" alt=""></span><span>A little tradition in every kitchen.</span><span class="art-wash"><img src="/assets/coconut.svg" alt=""></span></div></section>')
+    if p:tiles.append(f'<a class="market-category" href="/category/{h}" data-reveal><span class="category-window"><img src="/assets/category-{h}.svg" alt="" loading="lazy"><i aria-hidden="true"></i></span><strong>{title}</strong></a>')
+add('heritage-categories','Kitchen categories','<section class="market-categories container"><div class="heritage-caption"><span></span><p>Open Ammamma’s Pantry</p><span></span></div><div class="market-category-row">'+''.join(tiles)+'</div><div class="kitchen-sketches" aria-hidden="true"><span class="art-wash"><img src="/assets/spice-sprig.svg" alt=""></span><span>A little tradition in every kitchen.</span><span class="art-wash"><img src="/assets/coconut.svg" alt=""></span></div></section>')
 for i,eyebrow,title in [(1,'Customer Favorites','Bestselling Products'),(2,'Fresh Additions','New Arrivals')]:
     handles=list(dict.fromkeys(n.attrs.get('data-product-handle') for n in sections[i].all('a') if n.attrs.get('data-product-handle') in products))
     selected=[products[h] for h in handles]
