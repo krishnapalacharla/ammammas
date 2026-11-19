@@ -13,3 +13,5 @@ Thumbs.db
 
 preview/reference-data.json
 **/__pycache__/
+
+preview/checks/
