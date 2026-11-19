@@ -44,3 +44,5 @@ import runpy
 runpy.run_path(str(ROOT/"scripts/build_heritage.py"))
 
 runpy.run_path(str(ROOT/"scripts/build_story.py"))
+
+runpy.run_path(str(ROOT/"scripts/build_recipes.py"))

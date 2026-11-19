@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "recipe-poori-with-aloo-curry"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

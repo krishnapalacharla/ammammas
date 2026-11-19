@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "recipe-chapati-wraps-with-paneer"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

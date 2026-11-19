@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "recipe-spice-infused-buttermilk"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

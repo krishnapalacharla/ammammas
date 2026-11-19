@@ -81,5 +81,6 @@ if 'heritage.css' not in s:s=s.replace("{{ 'theme.css' | asset_url | stylesheet_
 if 'home-refinements.css' not in s:s=s.replace("{{ 'heritage.css' | asset_url | stylesheet_tag }}","{{ 'heritage.css' | asset_url | stylesheet_tag }}{{ 'home-refinements.css' | asset_url | stylesheet_tag }}")
 if 'heritage.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'heritage.js' | asset_url }}\" defer></script><script src=",1)
 if 'granny-visit.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'granny-visit.js' | asset_url }}\" defer></script><script src=",1)
+if 'inner-pages.css' not in s:s=s.replace("{{ 'home-refinements.css' | asset_url | stylesheet_tag }}","{{ 'home-refinements.css' | asset_url | stylesheet_tag }}{{ 'inner-pages.css' | asset_url | stylesheet_tag }}")
 layout.write_text(s,encoding='utf-8')
 print('Heritage homepage: three-slide landing carousel and nine coherent content sections generated.')

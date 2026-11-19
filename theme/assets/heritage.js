@@ -1,5 +1,16 @@
 'use strict';
+window.initRecipePages=function(root=document){
+ root.querySelectorAll('.recipe-index').forEach(index=>{
+  if(index.dataset.filtersReady)return;index.dataset.filtersReady='true';
+  const cards=[...index.querySelectorAll('[data-recipe-tags]')],buttons=[...index.querySelectorAll('[data-recipe-filter]')],count=index.querySelector('.recipe-count');
+  function filter(category){let shown=0;cards.forEach(card=>{const active=category==='All'||card.dataset.recipeTags.split('|').includes(category);card.hidden=!active;if(active)shown++});buttons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.recipeFilter===category)));if(count)count.textContent=shown+' recipe'+(shown===1?'':'s')}
+  buttons.forEach(button=>button.addEventListener('click',()=>filter(button.dataset.recipeFilter)));
+  filter('All');
+ });
+ root.querySelectorAll('[data-print-recipe]').forEach(button=>{if(button.dataset.printReady)return;button.dataset.printReady='true';button.addEventListener('click',()=>window.print())});
+};
 window.initHeritage=function(root=document){
+ window.initRecipePages(root);
  window.initGrannyVisit?.();
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
  root.querySelectorAll('[data-heritage-slider]').forEach(slider=>{
