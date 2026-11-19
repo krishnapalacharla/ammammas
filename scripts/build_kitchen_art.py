@@ -18,6 +18,12 @@ text=E.SubElement(descriptor,'{'+ns['s']+'}text',{'x':'553','y':'154','text-anch
 text.text='SPICES  |  GHEE  |  PICKLES  |  SNACKS'
 for p in [A/'ammammas-logo.svg',R/'brand-assets/logos/ammammas-logo.svg']:
     E.ElementTree(logo).write(p,encoding='unicode')
+# Footer keeps the two language labels from the supplied original artwork.
+footer=E.parse(R.parent/'horizontal logo.svg').getroot()
+for text in footer.findall('.//s:text',ns):
+    if '208' in text.attrib.get('transform',''):
+        text.set('style','font:600 20px Arial,sans-serif;fill:#77290d')
+E.ElementTree(footer).write(A/'ammammas-footer-logo.svg',encoding='unicode')
 art={
 'pickles':('<path fill="#fdbb5b" d="M58 61H122V131Q90 148 58 131Z"/>','<path d="M57 59H123V132Q90 148 57 132ZM53 49H127V60H53ZM62 42H118V49M66 81Q91 66 114 84M69 122Q91 136 111 119"/><path d="M78 89Q96 78 109 93Q94 118 77 110Q67 102 78 89ZM89 98L104 90M73 34Q81 19 95 23Q98 34 84 38M90 37L96 26"/>'),
 'spices':('<path fill="#fdbb5b" d="M39 104H141L128 135H52Z"/>','<path d="M38 104H142L128 136H52ZM48 103L69 79L82 85L101 67L132 104M100 67L111 46M107 49L121 28Q126 22 132 29L136 34Q139 38 134 44L117 60M57 48L64 57M49 65L58 68M77 42V52M78 95L81 95M105 91H108M62 112Q90 126 119 112"/>'),

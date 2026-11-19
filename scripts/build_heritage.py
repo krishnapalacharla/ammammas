@@ -27,22 +27,8 @@ def native(html):
     html=html.replace('href="/category/','href="/collections/').replace('href="/products"','href="/collections/all"').replace('href="/about"','href="/pages/about"').replace('href="/privacy-policy"','href="/pages/privacy-policy"')
     return html
 def section(name,html,settings=None):return native(html)+'\n{% schema %}\n'+json.dumps({'name':name,'settings':settings or []})+'\n{% endschema %}'
-granny_notes={
-'heritage-categories':("Come in, kanna. Have you eaten?", "That was not a question. Sit down."),
-'heritage-featured':("A little extra ghee never hurt a story.", "Measure with your heart. Especially the ghee."),
-'heritage-bundles':("Take some home. I packed a little extra.", "One box for you. One for the person who steals yours."),
-'heritage-story':("Recipes? I measure with this hand.", "The secret ingredient? I will tell you after lunch."),
-'heritage-testimonials':("You liked it? Good. Have some more.", "Full? There is always room for one more bite."),
-}
-def granny_note(key):
-    line,extra=granny_notes[key]
-    return '<aside class="granny-note" data-granny-note><img src="/assets/ammammas-granny.svg" alt="" loading="lazy"><div><span class="granny-note-label">Ammamma says</span><p data-granny-line>'+e(line)+'</p></div><button type="button" data-granny-another data-lines="'+e(__import__('json').dumps([line,extra]),quote=True)+'" aria-label="Read another saying from Ammamma">One more, Ammamma <span aria-hidden="true">↻</span></button></aside>'
 out=[];template={'sections':{},'order':[]}
 def add(handle,title,html,shopify=None,settings=None):
-    if handle in granny_notes:
-        note=granny_note(handle)
-        html+=note
-        if shopify:shopify+=note
     out.append(html);(T/'sections'/(handle+'.liquid')).write_text(section(title,shopify or html,settings),encoding='utf-8');template['sections'][handle]={'type':handle};template['order'].append(handle)
 imgs=[n.attrs['src'] for n in sections[0].all('img')]
 slides=[('Homemade Goodness Delivered','Homemade\nGoodness\nDelivered.', '',imgs[0],'/products','Shop Now'),('New Arrivals This Week','Authentic\nAndhra\nPickles.','Hand-pounded spices, Premium quality oils, and recipes passed down through generations. No preservatives, just pure taste.',imgs[1],'/category/pickles','Shop Pickles'),('Healthy & Wholesome','Healthy &\nWholesome.','',imgs[2],'/category/ready-to-cook','Order Now')]
@@ -79,7 +65,7 @@ offer=[]
 for n in sections[7].all():
     if any(isinstance(c,Node) and c.tag=='h3' for c in n.children):offer.append('<article data-reveal>'+clean(n)+'</article>')
 description=first(sections[7],'p').text()
-add('heritage-offerings','Crafted with tradition','<section class="offering-section container"><div class="center-heading"><span class="eyebrow">What We Offer</span><h2>Crafted With Tradition</h2><p>'+e(description)+'</p></div><div class="offering-grid">'+''.join(offer)+'</div></section>')
+add('heritage-offerings','Crafted with tradition','<section class="offering-section container"><div class="kitchen-table-art art-wash" aria-hidden="true"><img src="/assets/kitchen-table.svg" alt="" loading="lazy"></div><div class="center-heading"><span class="eyebrow">What We Offer</span><h2>Crafted With Tradition</h2><p>'+e(description)+'</p></div><div class="offering-grid">'+''.join(offer)+'</div></section>')
 newsletter='''<section class="heritage-newsletter"><div class="container"><span class="art-wash"><img src="/assets/spice-sprig.svg" alt=""></span><div><p class="newsletter-quote">“One recipe a week, from my kitchen to yours.”</p><h2>Stay Updated</h2><p>Get recipes, offers & new product alerts straight to your inbox</p><form class="newsletter-form"><label class="sr-only" for="NewsletterEmail">Email address</label><input id="NewsletterEmail" name="contact[email]" type="email" placeholder="Your email address" required><button class="button" type="submit">Subscribe</button></form><small>No spam, unsubscribe anytime. By subscribing you agree to our <a href="/privacy-policy">Privacy Policy</a>.</small></div><span class="art-wash"><img src="/assets/tiffin.svg" alt=""></span></div></section>'''
 native_news=newsletter.replace('<form class="newsletter-form">',"{% form 'customer', class: 'newsletter-form' %}<input type=\"hidden\" name=\"contact[tags]\" value=\"newsletter\">").replace('</form>','{{ form.errors | default_errors }}{% if form.posted_successfully? %}<p>Thank you for subscribing.</p>{% endif %}{% endform %}')
 add('heritage-newsletter','Newsletter',newsletter,native_news)
@@ -94,5 +80,6 @@ layout=T/'layout/theme.liquid';s=layout.read_text(encoding='utf-8')
 if 'heritage.css' not in s:s=s.replace("{{ 'theme.css' | asset_url | stylesheet_tag }}","{{ 'theme.css' | asset_url | stylesheet_tag }}{{ 'heritage.css' | asset_url | stylesheet_tag }}")
 if 'home-refinements.css' not in s:s=s.replace("{{ 'heritage.css' | asset_url | stylesheet_tag }}","{{ 'heritage.css' | asset_url | stylesheet_tag }}{{ 'home-refinements.css' | asset_url | stylesheet_tag }}")
 if 'heritage.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'heritage.js' | asset_url }}\" defer></script><script src=",1)
+if 'granny-visit.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'granny-visit.js' | asset_url }}\" defer></script><script src=",1)
 layout.write_text(s,encoding='utf-8')
 print('Heritage homepage: three-slide landing carousel and nine coherent content sections generated.')

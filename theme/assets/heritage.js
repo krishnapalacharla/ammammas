@@ -1,10 +1,6 @@
 'use strict';
 window.initHeritage=function(root=document){
- root.querySelectorAll('[data-granny-another]').forEach(button=>{
-  if(button.dataset.bound)return;button.dataset.bound='true';
-  const lines=JSON.parse(button.dataset.lines);let next=0;
-  button.onclick=()=>{next=(next+1)%lines.length;const line=button.closest('[data-granny-note]').querySelector('[data-granny-line]');line.textContent=lines[next];line.setAttribute('aria-live','polite');button.closest('[data-granny-note]').classList.remove('granny-wink');requestAnimationFrame(()=>button.closest('[data-granny-note]').classList.add('granny-wink'))};
- });
+ window.initGrannyVisit?.();
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
  root.querySelectorAll('[data-heritage-slider]').forEach(slider=>{
   if(slider.dataset.initialized)return;slider.dataset.initialized='true';
