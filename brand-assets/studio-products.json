@@ -1,0 +1,113 @@
+{
+  "approval": "User approved replacing the old pack sizes while keeping existing prices on 22 November 2026.",
+  "products": {
+    "mango-pickle-300g": {
+      "asset": "studio-mango.jpg",
+      "title": "Mango Pickle",
+      "pack": "250 g",
+      "options": [
+        "250g",
+        "500g",
+        "1kg"
+      ],
+      "scale": 0.99
+    },
+    "lemon-pickle-300g": {
+      "asset": "studio-lemon.jpg",
+      "title": "Lemon Pickle",
+      "pack": "250 g",
+      "options": [
+        "250g"
+      ],
+      "scale": 0.99
+    },
+    "cow-ghee": {
+      "asset": "studio-ghee-250.jpg",
+      "title": "Cow Ghee",
+      "pack": "250 ml",
+      "options": [
+        "250ml"
+      ],
+      "scale": 0.99
+    },
+    "cow-ghee-500ml": {
+      "asset": "studio-ghee-500.jpg",
+      "title": "Cow Ghee",
+      "pack": "500 ml",
+      "options": [
+        "500ml"
+      ],
+      "scale": 0.92
+    },
+    "murukulu": {
+      "asset": "studio-murukulu.jpg",
+      "title": "Kara Kara Murukulu",
+      "pack": "",
+      "scale": 0.96
+    },
+    "jantikalu": {
+      "asset": "studio-janthikalu.jpg",
+      "title": "Janthikalu",
+      "pack": "",
+      "scale": 0.91
+    },
+    "ammammas-nalla-karam": {
+      "asset": "studio-karam.jpg",
+      "title": "Nalla Karam",
+      "pack": "250 g",
+      "options": [
+        "250g"
+      ],
+      "scale": 0.92
+    },
+    "dhaniya-powder": {
+      "asset": "studio-coriander.jpg",
+      "title": "Coriander Powder",
+      "pack": "250 g",
+      "options": [
+        "250g"
+      ],
+      "scale": 0.92
+    },
+    "ammammas-ring-fryums": {
+      "asset": "studio-ring-fryums.jpg",
+      "title": "Ring Fryums",
+      "pack": "",
+      "scale": 0.95
+    },
+    "ammammas-tube-fryums": {
+      "asset": "studio-tube-fryums.jpg",
+      "title": "Tube Fryums",
+      "pack": "",
+      "scale": 0.84
+    },
+    "ammammas-crispy-triangle-frym": {
+      "asset": "studio-triangle-fryums.jpg",
+      "title": "Crispy Triangle Fryums",
+      "pack": "",
+      "scale": 0.95
+    },
+    "cauliflower-pickle": {
+      "asset": "studio-cauliflower.jpg",
+      "title": "Cauliflower Pickle",
+      "pack": "300 g",
+      "scale": 0.99
+    }
+  },
+  "featured": [
+    "mango-pickle-300g",
+    "lemon-pickle-300g",
+    "cow-ghee",
+    "cow-ghee-500ml",
+    "murukulu",
+    "jantikalu",
+    "ammammas-nalla-karam",
+    "dhaniya-powder"
+  ],
+  "arrivals": [
+    "ammammas-ring-fryums",
+    "ammammas-tube-fryums",
+    "ammammas-crispy-triangle-frym",
+    "cauliflower-pickle"
+  ]
+}

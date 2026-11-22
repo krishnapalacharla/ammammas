@@ -5,6 +5,8 @@ import json,re,sys
 sys.path.insert(0,str(Path(__file__).parent))
 from reference_dom import Parser,Node
 R=Path(__file__).resolve().parents[1];T=R/'theme';D=json.loads((R/'preview/reference-data.json').read_text(encoding='utf-8'))
+from product_studio import STUDIO,apply_studio_catalog,liquid_studio_cases
+apply_studio_catalog(D['products'],D['pages'])
 home=Parser(next(p['content'] for p in D['pages'] if p['path']=='/')).root
 sections={int(n.attrs['data-home-section']):n for n in home.all('section') if 'data-home-section' in n.attrs}
 products={p['handle']:p for p in D['products']}
@@ -19,7 +21,11 @@ def clean(n):
     if not text.strip() and n.tag not in ['img','input','br','hr']:return ''
     return '<'+n.tag+at+'>'+text+('' if n.tag in ['img','input','br','hr'] else '</'+n.tag+'>')
 def card(p):
-    return f'''<article class="product-card pantry-card" data-reveal><div class="pantry-picture"><a class="product-photo" href="{p['url']}"><img src="{p['images'][0]}" alt="{e(p['title'],quote=True)}" loading="lazy"></a><button class="save-product" data-save="{p['handle']}" aria-label="Save {e(p['title'],quote=True)}" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 5c-3-3-6-1-8 1-2-2-5-4-8-1-5 5 2 11 8 15 6-4 13-10 8-15Z"/></svg></button></div><div class="pantry-label"><span class="pantry-category">{e(p['category'].replace('-',' '))}</span><h3><a href="{p['url']}">{e(p['title'])}</a></h3><div class="pantry-card-bottom"><span class="pantry-price">₹{float(p['price']):,.0f}</span><a class="pantry-shop" href="{p['url']}">{'Choose options' if p['available'] else 'View product'}</a></div></div></article>'''
+    studio=p['images'][0].startswith('/assets/studio-')
+    style=' style="--studio-scale:'+str(p.get('studio_scale',1))+'"' if studio else ''
+    title=p.get('studio_title',p['title'])
+    pack='<span class="studio-pack">'+e(p.get('studio_pack',''))+'</span>' if studio else ''
+    return f'''<article class="product-card pantry-card {'studio-card' if studio else ''}"{style} data-reveal><div class="pantry-picture"><a class="product-photo" href="{p['url']}"><img src="{p['images'][0]}" alt="{e(p['title'],quote=True)}" width="1254" height="1254" loading="lazy"></a><button class="save-product" data-save="{p['handle']}" aria-label="Save {e(p['title'],quote=True)}" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 5c-3-3-6-1-8 1-2-2-5-4-8-1-5 5 2 11 8 15 6-4 13-10 8-15Z"/></svg></button></div><div class="pantry-label"><span class="pantry-category">{e(p['category'].replace('-',' '))}</span><h3><a href="{p['url']}">{e(title)}</a></h3>{pack}<div class="pantry-card-bottom"><span class="pantry-price">&#8377;{float(p['price']):,.0f}</span><a class="pantry-shop" href="{p['url']}">{'Choose options' if p['available'] else 'View product'}</a></div></div></article>'''
 def native_card(p):
     return "{% assign captured_product = all_products['"+p['handle']+"'] %}{% if captured_product != blank %}{% render 'product-card', product: captured_product %}{% else %}"+card(p)+"{% endif %}"
 def native(html):
@@ -31,6 +37,7 @@ out=[];template={'sections':{},'order':[]}
 def add(handle,title,html,shopify=None,settings=None):
     out.append(html);(T/'sections'/(handle+'.liquid')).write_text(section(title,shopify or html,settings),encoding='utf-8');template['sections'][handle]={'type':handle};template['order'].append(handle)
 imgs=[n.attrs['src'] for n in sections[0].all('img')]
+if (T/'assets/studio-mango.jpg').exists():imgs=['/assets/studio-mango.jpg','/assets/studio-lemon.jpg','/assets/studio-ghee-500.jpg']
 slides=[('Homemade Goodness Delivered','Homemade\nGoodness\nDelivered.', '',imgs[0],'/products','Shop Now'),('New Arrivals This Week','Authentic\nAndhra\nPickles.','Hand-pounded spices, Premium quality oils, and recipes passed down through generations. No preservatives, just pure taste.',imgs[1],'/category/pickles','Shop Pickles'),('Healthy & Wholesome','Healthy &\nWholesome.','',imgs[2],'/category/ready-to-cook','Order Now')]
 slide_html=[]
 for i,(eyebrow,title,desc,img,url,cta) in enumerate(slides):
@@ -43,13 +50,21 @@ for h,title in cats:
     p=next((p for p in D['products'] if p['category']==h),None)
     if p:tiles.append(f'<a class="market-category" href="/category/{h}" data-reveal><span class="category-window"><img src="/assets/category-{h}.svg" alt="" loading="lazy"><i aria-hidden="true"></i></span><strong>{title}</strong></a>')
 add('heritage-categories','Kitchen categories','<section class="market-categories container"><div class="heritage-caption"><span></span><p>Open Ammamma’s Pantry</p><span></span></div><div class="market-category-row">'+''.join(tiles)+'</div><div class="kitchen-sketches" aria-hidden="true"><span class="art-wash"><img src="/assets/spice-sprig.svg" alt=""></span><span>A little tradition in every kitchen.</span><span class="art-wash"><img src="/assets/coconut.svg" alt=""></span></div></section>')
-for i,eyebrow,title in [(1,'Customer Favorites','Bestselling Products'),(2,'Fresh Additions','New Arrivals')]:
+for i,eyebrow,title in [(1,'From Ammamma’s Pantry','Bestselling Products'),(2,'Fresh Additions','New Arrivals')]:
     handles=list(dict.fromkeys(n.attrs.get('data-product-handle') for n in sections[i].all('a') if n.attrs.get('data-product-handle') in products))
+    studio_handles=STUDIO['featured' if i==1 else 'arrivals']
+    if all(h in products and products[h]['images'][0].startswith('/assets/studio-') for h in studio_handles):handles=studio_handles
     selected=[products[h] for h in handles]
     head=f'<section class="pantry-section container"><div class="section-heading" data-reveal><div><span class="eyebrow">{eyebrow}</span><h2>{title}</h2></div><span class="art-wash heading-art" aria-hidden="true"><img src="/assets/mortar.svg" alt=""></span><a class="text-link" href="/products">View All Products</a></div><div class="product-grid pantry-grid">'
     add('heritage-featured' if i==1 else 'heritage-arrivals',title,head.replace('mortar.svg','tiffin.svg' if i==2 else 'mortar.svg')+''.join(card(p) for p in selected)+'</div></section>',head.replace('mortar.svg','tiffin.svg' if i==2 else 'mortar.svg')+''.join(native_card(p) for p in selected)+'</div></section>')
 bundle_grid=next(n for n in sections[3].all('div') if 'grid-cols-1' in n.attrs.get('class',''))
 bundles=''.join('<article class="market-bundle" data-reveal>'+clean(n)+'</article>' for n in bundle_grid.children if isinstance(n,Node))
+for handle in STUDIO['products']:
+    product=products.get(handle)
+    if product and product['images'][0].startswith('/assets/studio-'):
+        for old in product.get('captured_images',[]):
+            if old!=product['images'][0]:bundles=bundles.replace(old,product['images'][0])
+bundles=bundles.replace('Cow Ghee 200ml','Cow Ghee 250ml')
 add('heritage-bundles','Value packs','<section class="bundle-section"><div class="container"><div class="section-heading"><div><span class="eyebrow">Bundle & Save</span><h2>Value Packs</h2><p>Get more for less with our curated bundles. Hand-picked combos at special prices.</p></div></div><div class="market-bundles">'+bundles+'</div></div></section>')
 story='<section class="village-story"><div class="container story-grid"><div class="story-portrait art-wash" data-reveal><img src="/assets/ammammas-granny.svg" alt="Ammamma’s"></div><div class="story-copy" data-reveal><span class="eyebrow">Our Story</span><h2>Made with Love<br>by Ammamma</h2><p>What started as a small kitchen experiment in 2019 has grown into a beloved brand that brings the taste of grandmother\'s cooking to homes across India.</p><a class="text-link" href="/about">Our Story</a><div class="story-facts"><span><strong>10 lac+</strong>Happy Families</span><span><strong>100%</strong>Homemade with Love</span><span><strong>Zero</strong>MAIDA</span><span><strong>4.8★</strong>Average Rating</span></div></div></div><img class="village-panorama" src="/assets/village-street.svg" alt="Illustrated South Indian street with tiled houses and a banyan tree"></section>'
 add('heritage-story','Our story',story)
@@ -74,7 +89,8 @@ D['heritageHome']=''.join(out)
 (R/'preview/reference-data.json').write_text(json.dumps(D,ensure_ascii=False),encoding='utf-8')
 (T/'templates/index.json').write_text(json.dumps(template,indent=2),encoding='utf-8')
 # Reuse the same card design for live Shopify collections.
-(T/'snippets/product-card.liquid').write_text('''<article class="product-card pantry-card" data-reveal><div class="pantry-picture"><a class="product-photo" href="{{ product.url }}">{% if product.featured_image %}{{ product.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '300, 500, 800' }}{% else %}{{ 'product-1' | placeholder_svg_tag }}{% endif %}</a><button class="save-product" data-save="{{ product.handle }}" aria-label="Save {{ product.title | escape }}" aria-pressed="false">{% render 'icon', name: 'heart' %}</button></div><div class="pantry-label"><span class="pantry-category">{{ product.type | escape }}</span><h3><a href="{{ product.url }}">{{ product.title | escape }}</a></h3><div class="pantry-card-bottom"><span class="pantry-price">{{ product.price | money }}</span><a class="pantry-shop" href="{{ product.url }}">{% if product.available %}Choose options{% else %}View product{% endif %}</a></div></div></article>''',encoding='utf-8')
+native_card_markup=liquid_studio_cases()+'''<article class="product-card pantry-card {% if studio_asset != blank %}studio-card{% endif %}" style="--studio-scale:{{ studio_scale }}" data-reveal><div class="pantry-picture"><a class="product-photo" href="{{ product.url }}">{% if studio_asset != blank %}<img src="{{ studio_asset | asset_url }}" alt="{{ studio_title | escape }} {{ studio_pack | escape }}" width="1254" height="1254" loading="lazy">{% elsif product.featured_image %}{{ product.featured_image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '300, 500, 800' }}{% else %}{{ 'product-1' | placeholder_svg_tag }}{% endif %}</a><button class="save-product" data-save="{{ product.handle }}" aria-label="Save {{ studio_title | escape }}" aria-pressed="false">{% render 'icon', name: 'heart' %}</button></div><div class="pantry-label"><span class="pantry-category">{{ product.type | escape }}</span><h3><a href="{{ product.url }}">{{ studio_title | escape }}</a></h3>{% if studio_asset != blank %}<span class="studio-pack">{{ studio_pack | escape }}</span>{% endif %}<div class="pantry-card-bottom"><span class="pantry-price">{{ product.price | money }}</span><a class="pantry-shop" href="{{ product.url }}">{% if product.available %}Choose options{% else %}View product{% endif %}</a></div></div></article>'''
+(T/'snippets/product-card.liquid').write_text(native_card_markup,encoding='utf-8')
 # Include the same standalone motion system in Shopify and local review.
 layout=T/'layout/theme.liquid';s=layout.read_text(encoding='utf-8')
 if 'heritage.css' not in s:s=s.replace("{{ 'theme.css' | asset_url | stylesheet_tag }}","{{ 'theme.css' | asset_url | stylesheet_tag }}{{ 'heritage.css' | asset_url | stylesheet_tag }}")
@@ -82,5 +98,6 @@ if 'home-refinements.css' not in s:s=s.replace("{{ 'heritage.css' | asset_url | 
 if 'heritage.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'heritage.js' | asset_url }}\" defer></script><script src=",1)
 if 'granny-visit.js' not in s:s=s.replace('<script src=',"<script src=\"{{ 'granny-visit.js' | asset_url }}\" defer></script><script src=",1)
 if 'inner-pages.css' not in s:s=s.replace("{{ 'home-refinements.css' | asset_url | stylesheet_tag }}","{{ 'home-refinements.css' | asset_url | stylesheet_tag }}{{ 'inner-pages.css' | asset_url | stylesheet_tag }}")
+if 'studio-products.css' not in s:s=s.replace("{{ 'inner-pages.css' | asset_url | stylesheet_tag }}","{{ 'inner-pages.css' | asset_url | stylesheet_tag }}{{ 'studio-products.css' | asset_url | stylesheet_tag }}")
 layout.write_text(s,encoding='utf-8')
 print('Heritage homepage: three-slide landing carousel and nine coherent content sections generated.')

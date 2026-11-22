@@ -48,16 +48,22 @@
   },
   {
     "handle": "ammammas-crispy-triangle-frym",
-    "title": "Crispy Triangle Fryum",
+    "title": "Crispy Triangle Fryums",
     "description": "",
     "price": "50",
     "available": true,
     "images": [
-      "/assets/ref-3c15c22a5a33.png"
+      "/assets/studio-triangle-fryums.jpg"
     ],
     "options": [],
     "category": "fryum-factory",
-    "url": "/products/ammammas-crispy-triangle-frym"
+    "url": "/products/ammammas-crispy-triangle-frym",
+    "captured_images": [
+      "/assets/ref-3c15c22a5a33.png"
+    ],
+    "studio_title": "Crispy Triangle Fryums",
+    "studio_pack": "",
+    "studio_scale": 0.95
   },
   {
     "handle": "ammammas-curd-chillies-papad",
@@ -224,11 +230,19 @@
   },
   {
     "handle": "ammammas-nalla-karam",
-    "title": "Nalla Karam",
+    "title": "Nalla Karam 250 g",
     "description": "Ammammas Nalla Karam is a flavorful and aromatic spice powder made from carefully roasted lentils, red chillies, garlic, and traditional spices. Ground to perfection using our homestyle method, it delivers a bold, spicy, and slightly smoky taste that enhances every meal. Perfect to mix with hot rice and ghee, sprinkle over idli or dosa, or use as a side condiment, Ammammas Nalla Karam brings authentic South Indian flavor to your plate.",
     "price": "99.0",
     "available": true,
     "images": [
+      "/assets/studio-karam.jpg"
+    ],
+    "options": [
+      "250g"
+    ],
+    "category": "spices",
+    "url": "/products/ammammas-nalla-karam",
+    "captured_images": [
       "/assets/ref-7bfa05e7228a.png",
       "/assets/ref-c1c488e2fcc9.png",
       "/assets/ref-ecb8306f17ff.png",
@@ -236,9 +250,9 @@
       "/assets/ref-592effd791bb.png",
       "/assets/ref-4a5b52f4542d.png"
     ],
-    "options": [],
-    "category": "spices",
-    "url": "/products/ammammas-nalla-karam"
+    "studio_title": "Nalla Karam",
+    "studio_pack": "250 g",
+    "studio_scale": 0.92
   },
   {
     "handle": "ammammas-peanut-chutney",
@@ -275,16 +289,22 @@
   },
   {
     "handle": "ammammas-ring-fryums",
-    "title": "Ammamma's Ring Fryums",
+    "title": "Ring Fryums",
     "description": "Bring home the perfect crunch with Ammamma's Ring Fryums. Made from quality ingredients and shaped into fun rings, these fryums puff up into light, crispy snacks when fried. Their delightful texture and delicious taste make them a perfect companion for meals, tea-time snacks, and family gatherings.",
     "price": "50.0",
     "available": true,
     "images": [
-      "/assets/ref-fc4afd01ea31.png"
+      "/assets/studio-ring-fryums.jpg"
     ],
     "options": [],
     "category": "fryum-factory",
-    "url": "/products/ammammas-ring-fryums"
+    "url": "/products/ammammas-ring-fryums",
+    "captured_images": [
+      "/assets/ref-fc4afd01ea31.png"
+    ],
+    "studio_title": "Ring Fryums",
+    "studio_pack": "",
+    "studio_scale": 0.95
   },
   {
     "handle": "ammammas-tomato-chutney",
@@ -303,16 +323,22 @@
   },
   {
     "handle": "ammammas-tube-fryums",
-    "title": "Ammamma's Tube Fryums",
+    "title": "Tube Fryums",
     "description": "Add a burst of crunch and fun to every meal with Ammamma's Tube Fryums. Made from quality ingredients, these crispy tube-shaped fryums puff up beautifully when fried, delivering a light texture and delicious taste. Perfect as a snack, side dish, or party treat, they are loved by both kids and adults.",
     "price": "50.0",
     "available": true,
     "images": [
-      "/assets/ref-b30d99a7a74b.png"
+      "/assets/studio-tube-fryums.jpg"
     ],
     "options": [],
     "category": "fryum-factory",
-    "url": "/products/ammammas-tube-fryums"
+    "url": "/products/ammammas-tube-fryums",
+    "captured_images": [
+      "/assets/ref-b30d99a7a74b.png"
+    ],
+    "studio_title": "Tube Fryums",
+    "studio_pack": "",
+    "studio_scale": 0.84
   },
   {
     "handle": "ammammas-velluli-karam",
@@ -411,12 +437,12 @@
   },
   {
     "handle": "cauliflower-pickle",
-    "title": "Cauliflower Pickle",
+    "title": "Cauliflower Pickle 300 g",
     "description": "Cauliflower Pickle is made using fresh cauliflower florets and traditional spices for a rich, spicy, and flavourful taste. The cauliflower is carefully cleaned, marinated, and blended with authentic masala to absorb deep homestyle flavours in every bite. This pickle pairs perfectly with hot rice, chapati, curd rice, dosa, and everyday meals. Prepared using traditional recipes and small-batch methods, it delivers the perfect balance of spice, tanginess, and aroma. A must-have accompaniment for those who enjoy bold and comforting homemade pickle flavours.",
     "price": "149.0",
     "available": true,
     "images": [
-      "/assets/ref-ebd1bc8b5c9e.png"
+      "/assets/studio-cauliflower.jpg"
     ],
     "options": [
       "300g",
@@ -424,7 +450,13 @@
       "1kg"
     ],
     "category": "pickles",
-    "url": "/products/cauliflower-pickle"
+    "url": "/products/cauliflower-pickle",
+    "captured_images": [
+      "/assets/ref-ebd1bc8b5c9e.png"
+    ],
+    "studio_title": "Cauliflower Pickle",
+    "studio_pack": "300 g",
+    "studio_scale": 0.99
   },
   {
     "handle": "chakodi",
@@ -473,49 +505,70 @@
   },
   {
     "handle": "cow-ghee-500ml",
-    "title": "Cow Ghee 500ml",
+    "title": "Cow Ghee 500 ml",
     "description": "Pure cow ghee made from fresh cream using the traditional bilona method. Rich aroma and golden color, perfect for cooking, tempering, and sweets.",
     "price": "599.0",
     "available": false,
     "images": [
+      "/assets/studio-ghee-500.jpg"
+    ],
+    "options": [
+      "500ml"
+    ],
+    "category": "ghee",
+    "url": "/products/cow-ghee-500ml",
+    "captured_images": [
       "/assets/ref-f8898275cf7d.jpg",
       "/assets/ref-8094a03c117e.jpg",
       "/assets/ref-af28bfc8e956.jpg"
     ],
-    "options": [],
-    "category": "ghee",
-    "url": "/products/cow-ghee-500ml"
+    "studio_title": "Cow Ghee",
+    "studio_pack": "500 ml",
+    "studio_scale": 0.92
   },
   {
     "handle": "cow-ghee",
-    "title": "Cow Ghee 200ml",
+    "title": "Cow Ghee 250 ml",
     "description": "Pure cow ghee made from fresh cream using the traditional bilona method. Rich aroma and golden color, perfect for cooking, tempering, and sweets.",
     "price": "249.0",
     "available": false,
     "images": [
+      "/assets/studio-ghee-250.jpg"
+    ],
+    "options": [
+      "250ml"
+    ],
+    "category": "ghee",
+    "url": "/products/cow-ghee",
+    "captured_images": [
       "/assets/ref-b5f14b499b2a.jpg",
       "/assets/ref-61500ebd404d.jpg",
       "/assets/ref-a9d9000d75ad.jpg"
     ],
-    "options": [],
-    "category": "ghee",
-    "url": "/products/cow-ghee"
+    "studio_title": "Cow Ghee",
+    "studio_pack": "250 ml",
+    "studio_scale": 0.99
   },
   {
     "handle": "dhaniya-powder",
-    "title": "Dhaniya Powder",
+    "title": "Coriander Powder 250 g",
     "description": "Ammamma’s Dhaniya (Coriander) Powder offers the warm, earthy flavor of freshly ground coriander seeds, bringing authenticity to your everyday cooking. Carefully sourced and traditionally processed, it delivers a mild aroma and subtle sweetness that enhances curries, gravies, and spice blends. Made with natural ingredients and free from preservatives or chemicals, it ensures purity, freshness, and a homemade touch in every spoon.",
     "price": "49.0",
     "available": false,
     "images": [
-      "/assets/ref-41e77332b688.jpg"
+      "/assets/studio-coriander.jpg"
     ],
     "options": [
-      "100g",
-      "200g"
+      "250g"
     ],
     "category": "spices",
-    "url": "/products/dhaniya-powder"
+    "url": "/products/dhaniya-powder",
+    "captured_images": [
+      "/assets/ref-41e77332b688.jpg"
+    ],
+    "studio_title": "Coriander Powder",
+    "studio_pack": "250 g",
+    "studio_scale": 0.92
   },
   {
     "handle": "garam-masala",
@@ -571,17 +624,23 @@
   },
   {
     "handle": "jantikalu",
-    "title": "Jantikalu",
+    "title": "Janthikalu",
     "description": "Crunchy and spicy traditional Andhra snack made with besan and rice flour, shaped into thin sticks. A beloved tea-time companion.",
     "price": "99.0",
     "available": false,
     "images": [
-      "/assets/ref-45feb2b76081.jpg",
-      "/assets/ref-0e3a7c13bcef.jpg"
+      "/assets/studio-janthikalu.jpg"
     ],
     "options": [],
     "category": "snacks",
-    "url": "/products/jantikalu"
+    "url": "/products/jantikalu",
+    "captured_images": [
+      "/assets/ref-45feb2b76081.jpg",
+      "/assets/ref-0e3a7c13bcef.jpg"
+    ],
+    "studio_title": "Janthikalu",
+    "studio_pack": "",
+    "studio_scale": 0.91
   },
   {
     "handle": "jeera-powder",
@@ -598,16 +657,24 @@
   },
   {
     "handle": "lemon-pickle-300g",
-    "title": "Lemon Pickle",
+    "title": "Lemon Pickle 250 g",
     "description": "",
     "price": "199",
     "available": true,
     "images": [
+      "/assets/studio-lemon.jpg"
+    ],
+    "options": [
+      "250g"
+    ],
+    "category": "pickles",
+    "url": "/products/lemon-pickle-300g",
+    "captured_images": [
       "/assets/ref-91a479c8f264.jpg"
     ],
-    "options": [],
-    "category": "pickles",
-    "url": "/products/lemon-pickle-300g"
+    "studio_title": "Lemon Pickle",
+    "studio_pack": "250 g",
+    "studio_scale": 0.99
   },
   {
     "handle": "maagai",
@@ -628,21 +695,27 @@
   },
   {
     "handle": "mango-pickle-300g",
-    "title": "Mango Pickle",
+    "title": "Mango Pickle 250 g",
     "description": "Ammammas Mango Pickle is made from carefully selected raw mangoes blended with traditional spices and aromatic oil to deliver a bold, tangy, and spicy flavor. Prepared using our authentic homestyle process, each batch captures the rich taste of classic Indian pickles.",
     "price": "159.0",
     "available": true,
     "images": [
-      "/assets/ref-a23e1606b781.jpg",
-      "/assets/ref-e031b4820b79.jpg"
+      "/assets/studio-mango.jpg"
     ],
     "options": [
-      "300g",
+      "250g",
       "500g",
       "1kg"
     ],
     "category": "pickles",
-    "url": "/products/mango-pickle-300g"
+    "url": "/products/mango-pickle-300g",
+    "captured_images": [
+      "/assets/ref-a23e1606b781.jpg",
+      "/assets/ref-e031b4820b79.jpg"
+    ],
+    "studio_title": "Mango Pickle",
+    "studio_pack": "250 g",
+    "studio_scale": 0.99
   },
   {
     "handle": "masala-papad",
@@ -736,17 +809,23 @@
   },
   {
     "handle": "murukulu",
-    "title": "Murukulu",
+    "title": "Kara Kara Murukulu",
     "description": "Traditional South Indian spiral snack made with rice flour and urad dal, seasoned with cumin and sesame seeds. Perfectly crispy and addictive.",
     "price": "99.0",
     "available": false,
     "images": [
-      "/assets/ref-996464a9ce30.jpg",
-      "/assets/ref-6fbabf08e122.jpg"
+      "/assets/studio-murukulu.jpg"
     ],
     "options": [],
     "category": "snacks",
-    "url": "/products/murukulu"
+    "url": "/products/murukulu",
+    "captured_images": [
+      "/assets/ref-996464a9ce30.jpg",
+      "/assets/ref-6fbabf08e122.jpg"
+    ],
+    "studio_title": "Kara Kara Murukulu",
+    "studio_pack": "",
+    "studio_scale": 0.96
   },
   {
     "handle": "orange-candy",
