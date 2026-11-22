@@ -40,9 +40,19 @@ write('locales/en.default.json',json.dumps({'general':{'accessibility':{'skip_to
 print('Native Shopify theme foundation generated; store validation pending access.')
 
 # Apply the shared heritage presentation after the Shopify foundation.
+from product_studio import liquid_studio_cases
+product_file=T/'sections/main-product.liquid'
+product_markup=product_file.read_text(encoding='utf-8')
+start=product_markup.index('<div class="product-gallery">')
+end=product_markup.index('<div class="detail-copy">',start)
+gallery='<div class="product-gallery">{% if studio_asset != blank %}<img id="main-product-photo" class="main-photo" src="{{ studio_asset | asset_url }}" alt="{{ studio_title | escape }} {{ studio_pack | escape }} studio shot" width="1254" height="1254" fetchpriority="high">{% elsif product.featured_image %}{{ product.featured_image | image_url: width: 1400 | image_tag: class: \'main-photo\', id: \'main-product-photo\', loading: \'eager\' }}{% endif %}<div class="gallery-thumbs">{% if studio_asset != blank %}<button type="button" data-photo="{{ studio_asset | asset_url }}" aria-label="View studio shot" aria-pressed="true"><img src="{{ studio_asset | asset_url }}" alt="{{ studio_title | escape }} studio shot" width="80" height="80"></button>{% endif %}{% for image in product.images %}<button type="button" data-photo="{{ image | image_url: width: 1400 }}" aria-label="View original image {{ forloop.index }}" aria-pressed="{% if studio_asset == blank and forloop.first %}true{% else %}false{% endif %}">{{ image | image_url: width: 150 | image_tag: loading: \'lazy\' }}</button>{% endfor %}</div></div>'
+product_file.write_text(liquid_studio_cases()+product_markup[:start]+gallery+product_markup[end:],encoding='utf-8')
+
 import runpy
 runpy.run_path(str(ROOT/"scripts/build_heritage.py"))
 
 runpy.run_path(str(ROOT/"scripts/build_story.py"))
 
 runpy.run_path(str(ROOT/"scripts/build_recipes.py"))
+
+runpy.run_path(str(ROOT/"scripts/build_contact.py"))

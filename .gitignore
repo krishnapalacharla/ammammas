@@ -11,7 +11,9 @@ shopify.theme.toml
 .DS_Store
 Thumbs.db
 
-preview/reference-data.json
 **/__pycache__/
 
 preview/checks/
+
+dist/
+.wrangler/

@@ -10,7 +10,7 @@ def apply_studio_catalog(products,pages):
         p.setdefault('captured_images',list(p['images']))
         p['studio_title']=shot['title'];p['studio_pack']=shot['pack'];p['studio_scale']=shot['scale']
         p['title']=shot['title']+(' '+shot['pack'] if shot['pack'] else '')
-        p['images']=['/assets/'+shot['asset']]
+        p['images']=list(dict.fromkeys(['/assets/'+shot['asset'],*p['captured_images']]))
         if 'options' in shot:p['options']=shot['options']
         if p['handle'] in ['mango-pickle-300g','lemon-pickle-300g']:
             p['description']=re.sub(r'300\s*g\b','250 g',p['description'],flags=re.I)

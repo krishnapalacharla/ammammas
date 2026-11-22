@@ -53,7 +53,8 @@
     "price": "50",
     "available": true,
     "images": [
-      "/assets/studio-triangle-fryums.jpg"
+      "/assets/studio-triangle-fryums.jpg",
+      "/assets/ref-3c15c22a5a33.png"
     ],
     "options": [],
     "category": "fryum-factory",
@@ -235,7 +236,13 @@
     "price": "99.0",
     "available": true,
     "images": [
-      "/assets/studio-karam.jpg"
+      "/assets/studio-karam.jpg",
+      "/assets/ref-7bfa05e7228a.png",
+      "/assets/ref-c1c488e2fcc9.png",
+      "/assets/ref-ecb8306f17ff.png",
+      "/assets/ref-596df817e2d4.png",
+      "/assets/ref-592effd791bb.png",
+      "/assets/ref-4a5b52f4542d.png"
     ],
     "options": [
       "250g"
@@ -294,7 +301,8 @@
     "price": "50.0",
     "available": true,
     "images": [
-      "/assets/studio-ring-fryums.jpg"
+      "/assets/studio-ring-fryums.jpg",
+      "/assets/ref-fc4afd01ea31.png"
     ],
     "options": [],
     "category": "fryum-factory",
@@ -328,7 +336,8 @@
     "price": "50.0",
     "available": true,
     "images": [
-      "/assets/studio-tube-fryums.jpg"
+      "/assets/studio-tube-fryums.jpg",
+      "/assets/ref-b30d99a7a74b.png"
     ],
     "options": [],
     "category": "fryum-factory",
@@ -442,7 +451,8 @@
     "price": "149.0",
     "available": true,
     "images": [
-      "/assets/studio-cauliflower.jpg"
+      "/assets/studio-cauliflower.jpg",
+      "/assets/ref-ebd1bc8b5c9e.png"
     ],
     "options": [
       "300g",
@@ -510,7 +520,10 @@
     "price": "599.0",
     "available": false,
     "images": [
-      "/assets/studio-ghee-500.jpg"
+      "/assets/studio-ghee-500.jpg",
+      "/assets/ref-f8898275cf7d.jpg",
+      "/assets/ref-8094a03c117e.jpg",
+      "/assets/ref-af28bfc8e956.jpg"
     ],
     "options": [
       "500ml"
@@ -533,7 +546,10 @@
     "price": "249.0",
     "available": false,
     "images": [
-      "/assets/studio-ghee-250.jpg"
+      "/assets/studio-ghee-250.jpg",
+      "/assets/ref-b5f14b499b2a.jpg",
+      "/assets/ref-61500ebd404d.jpg",
+      "/assets/ref-a9d9000d75ad.jpg"
     ],
     "options": [
       "250ml"
@@ -556,7 +572,8 @@
     "price": "49.0",
     "available": false,
     "images": [
-      "/assets/studio-coriander.jpg"
+      "/assets/studio-coriander.jpg",
+      "/assets/ref-41e77332b688.jpg"
     ],
     "options": [
       "250g"
@@ -629,7 +646,9 @@
     "price": "99.0",
     "available": false,
     "images": [
-      "/assets/studio-janthikalu.jpg"
+      "/assets/studio-janthikalu.jpg",
+      "/assets/ref-45feb2b76081.jpg",
+      "/assets/ref-0e3a7c13bcef.jpg"
     ],
     "options": [],
     "category": "snacks",
@@ -662,7 +681,8 @@
     "price": "199",
     "available": true,
     "images": [
-      "/assets/studio-lemon.jpg"
+      "/assets/studio-lemon.jpg",
+      "/assets/ref-91a479c8f264.jpg"
     ],
     "options": [
       "250g"
@@ -700,7 +720,9 @@
     "price": "159.0",
     "available": true,
     "images": [
-      "/assets/studio-mango.jpg"
+      "/assets/studio-mango.jpg",
+      "/assets/ref-a23e1606b781.jpg",
+      "/assets/ref-e031b4820b79.jpg"
     ],
     "options": [
       "250g",
@@ -814,7 +836,9 @@
     "price": "99.0",
     "available": false,
     "images": [
-      "/assets/studio-murukulu.jpg"
+      "/assets/studio-murukulu.jpg",
+      "/assets/ref-996464a9ce30.jpg",
+      "/assets/ref-6fbabf08e122.jpg"
     ],
     "options": [],
     "category": "snacks",
